@@ -18,7 +18,7 @@ export default function Home() {
             height={100}
             priority
           />
-          <h3 className='text-5xl ui-sans-serif'>Next-gen housekeeping for today</h3>
+          <h3 className='text-5xl ui-sans-serif'>Revolutionary Housekeeping for the Modern Era</h3>
         </div>
 
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
@@ -78,6 +78,18 @@ export default function Home() {
                 class="rounded-lg self-center mx-auto"
           />
         </div>
+
+        <div className='mt-40 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
+  <h1 className='text-5xl sm:text-8x1 font-bold text-black'>
+    Safeguarding job opportunities for our cleaners While being{" "} 
+    <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] text-transparent bg-clip-text'>
+      committed to{" "}
+      <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 text-transparent bg-clip-text'>
+        innovation
+      </span>
+    </span>
+  </h1>
+</div>
       </main>
 
       <Footer />
