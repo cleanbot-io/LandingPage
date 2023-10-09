@@ -22,10 +22,7 @@ export default function Home() {
         </div>
 
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
-          <h3 className='text-2xl'>Empowering maids with robotic tools, taking out
-            the grunt work and improving their turnover time by 2X making them
-            more efficient with 25% less work.
-          </h3>
+          <h3 className='text-2xl'>Empower maids with robotic tools, reducing their workload by 25% and doubling their turnover time, in-turn making our service affordable to you.</h3>
         </div>
 
         <div className='mt-40 mb-20'>
@@ -38,8 +35,8 @@ export default function Home() {
         </div>
 
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
-        <h1 className='text-5xl sm:text-8x1 font-bold text-black tracking-tight'>Our 1st generation flagship {""}
-          <span className='bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] text-transparent bg-clip-text'>
+        <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
+          <span className='bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
             cleaning robot
           </span>
         </h1>
@@ -79,8 +76,8 @@ export default function Home() {
           />
         </div>
 
-        <div className='mt-40 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
-  <h1 className='text-5xl sm:text-8x1 font-bold text-black'>
+        <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
+  <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white'>
     Safeguarding job opportunities for our cleaners While being{" "} 
     <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] text-transparent bg-clip-text'>
       committed to{" "}
@@ -90,6 +87,11 @@ export default function Home() {
     </span>
   </h1>
 </div>
+
+<div className="mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
+          <h3 className='text-2xl'>“Our robots are designed to empower cleaners by working alongside them. That is why we are committed to investing in training and education programs to help workers develop the skills they need to thrive in the automated economy.”</h3>
+          <h4>These are not sugar coated words - check out our blog for the plan on this ˃</h4>
+        </div>
       </main>
 
       <Footer />
