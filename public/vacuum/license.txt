@@ -1,0 +1,11 @@
+Model Information:
+* title:	MUSKONGE_N24T6N23S6001
+* source:	https://sketchfab.com/3d-models/muskonge-n24t6n23s6001-2ec7e66ddf1349169487bc356a74d07b
+* author:	MUSKONGE (https://sketchfab.com/MOUSIOON)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "MUSKONGE_N24T6N23S6001" (https://sketchfab.com/3d-models/muskonge-n24t6n23s6001-2ec7e66ddf1349169487bc356a74d07b) by MUSKONGE (https://sketchfab.com/MOUSIOON) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

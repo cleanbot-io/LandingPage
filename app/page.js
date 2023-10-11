@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import Image from 'next/image'
+import {Shiba} from './3drobot'
 
 export default function Home() {
   return (
@@ -23,9 +24,12 @@ export default function Home() {
           </h3>
         </div>
 
-        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
+        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10 ">
           <h3 className='text-2xl'>Empower maids with robotic tools, reducing their workload by 25% and doubling their turnover time, in-turn making our service affordable to you.</h3>
         </div>
+
+        <h2 className='mt-10 text-white'>Interact with this 3d model</h2>
+        <Shiba />
 
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
