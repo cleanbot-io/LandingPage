@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.bg-custom-blue {
+  background-color: #4F4BFF;
+}
