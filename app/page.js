@@ -1,5 +1,6 @@
-import Footer from '@/components/Footer'
-import NavBar from '@/components/NavBar'
+import Footer from '../components/Footer'
+import NavBar from '../components/NavBar'
+import Subscribe from '../components/Subscribe'
 import Image from 'next/image'
 import {Shiba} from './3drobot'
 
@@ -84,23 +85,24 @@ export default function Home() {
         </div>
 
         <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
-  <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white'>
-    Safeguarding job opportunities for our cleaners While being{" "} 
-    <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] text-transparent bg-clip-text'>
-      committed to{" "}
-      <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 text-transparent bg-clip-text'>
-        innovation
-      </span>
-    </span>
-  </h1>
-</div>
+          <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white'>
+            Safeguarding job opportunities for our cleaners While being{" "} 
+            <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] text-transparent bg-clip-text'>
+              committed to{" "}
+              <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 text-transparent bg-clip-text'>
+                innovation
+              </span>
+            </span>
+          </h1>
+        </div>
 
-<div className="mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
+        <div className="mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
           <h3 className='text-2xl'>“Our robots are designed to empower cleaners by working alongside them. That is why we are committed to investing in training and education programs to help workers develop the skills they need to thrive in the automated economy.”</h3>
           <h4>These are not sugar coated words - check out our blog for the plan on this ˃</h4>
         </div>
       </main>
 
+      <Subscribe/>
 
       <Footer />
     </>
