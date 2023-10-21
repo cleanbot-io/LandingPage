@@ -19,8 +19,8 @@ function Footer()
                     Contact
                 </a>
                 <span className="text-gray-400"> | </span>
-                <a href="#career" className="text-blue-400 hover:text-blue-300">
-                    Career
+                <a href="#cleaners" className="text-blue-400 hover:text-blue-300">
+                    Cleaners
                 </a>
             </div>
             <p className="text-center mt-4 text-gray-400 text-sm">
