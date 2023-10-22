@@ -4,27 +4,50 @@ import Image from 'next/image'
 function Cleaners()
 {
   return (
-    <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
-      
+    <div className="bg-[#191970] flex flex-row justify-center w-full">
+      <div className="bg-[#191970] h-[100vh] relative">
+        {/* Container 1 */}
+        <div className="flex flex-row justify-around items-center p-10 w-screen">
+          <div className="flex flex-col items-center gap-12">
+            <h1 className="text-4xl text-white font-bold">Apply as a cleaner</h1>
+            <div className="relative flex">
+              <input
+                type="email"
+                placeholder="Type here..."
+                className="p-3 pl-4 pr-32 border border-white rounded-full"
+              />
+              <button className="absolute right-1 top-1 bg-[#ff5555] text-white text-custom-blue p-2 pl-6 pr-6 rounded-full">
+                Apply
+              </button>
+            </div>
+          </div>
+          <img src="/cleaner.png" alt="Cleaner" className="w-64 h-64" />
+        </div>
 
-      {/* Main Text */}
-      <div className='flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-40'>
-        <h1 className='text-5xl sm:text-8x1 font-bold text-black tracking-tight'>Apply to be a {""}
-          <span className='bg-gradient-to-r from-[#FFFF00] to-[#ffaf7a] text-transparent bg-clip-text'>
-            cleaner
-          </span>
-        </h1>
-      </div>
-
-      <div>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] mt-4 -ml-50 sm:mt-8 lg:mt-0 lg:mr-25"
-            src="/cleaner.png"
-            alt="tool image"
-            width={300}
-            height={50}
-            priority
-          />
+        {/* Container 2 */}
+        <div className="bg-white flex flex-col p-10 w-screen">
+          <div className="flex flex-wrap mx-auto space-x-16">
+            <div className="flex-1 mb-4 pr-4">
+              <h2 className="text-xl font-bold mb-2">what kind of work?</h2>
+              <p>The usual house-keeping tasks</p>
+              <p>Bathroom, Bedroom, Living-room, and other living spaces</p>
+            </div>
+            <div className="flex-1 mb-4 pr-4">
+              <h2 className="text-xl font-bold mb-2">Benefits?</h2>
+              <p>Employee stock options</p>
+              <p>Medical + Dental coverage</p>
+              <p>Mental health coverage</p>
+              <p>5 free house-cleanings per year</p>
+            </div>
+            <div className="flex-1 mb-4 pr-4">
+              <h2 className="text-xl font-bold mb-2">What’s cleanbot's job?</h2>
+              <p>Bathtub + showers areas</p>
+              <p>Bath + shower faucets</p>
+              <p>Scrub moldy surfaces</p>
+              <p>Glass shower doors</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
