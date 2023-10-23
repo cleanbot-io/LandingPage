@@ -21,7 +21,14 @@ function Cleaners()
               </button>
             </div>
           </div>
-          <img src="/cleaner.png" alt="Cleaner" className="w-64 h-64" />
+          <Image
+            className="w-64 h-64"
+            src="/cleaner.png"
+            alt="Cleaner"
+            width={700}
+            height={100}
+            priority
+          />
         </div>
 
         {/* Container 2 */}
