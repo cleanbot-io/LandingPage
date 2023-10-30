@@ -47,9 +47,9 @@ function Cleaners()
               <p>5 free house-cleanings per year</p>
             </div>
             <div className="flex-1 mb-4 pr-4">
-              <h2 className="text-xl font-bold mb-2">What’s cleanbot's job?</h2>
-              <p>Bathtub + showers areas</p>
-              <p>Bath + shower faucets</p>
+              <h2 className="text-xl font-bold mb-2">and cleanbot&apos;s job?</h2>
+              <p>Bath + showers areas</p>
+              <p>Bath faucets + spouts</p>
               <p>Scrub moldy surfaces</p>
               <p>Glass shower doors</p>
             </div>
