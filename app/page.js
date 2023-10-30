@@ -8,6 +8,12 @@ export default function Home() {
   return (
     <>
       <NavBar />
+      <Image
+            src="/cb-LR2.png"
+            alt="living room"
+            width={1500}
+            height={100}
+          />
       
       <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-8 md:p-12 lg:p-24">
 
@@ -60,22 +66,6 @@ export default function Home() {
           />
 
           <Image
-            src="/rc-1-noBG.png"
-            alt="tub bot"
-            width="650"
-            height="100"
-            className="rounded-lg self-center mx-auto -mb-20 sm:-mb-40"
-          />
-
-          <div className="bg-white p-2 rounded-lg shadow-lg max-w-md max-h-44 -mt-16 sm:-mt-28 mb-10 sm:mb-16">
-            <h2 className="text-xl sm:text-2xl font-bold mb-2 text-gray-800">Rt-1</h2>
-            <p className="text-gray-700">Heavy duty performance for all Shower Wall 
-              Panel and Tile types including Stone | Marble | Glass | Porcelain |
-              Fiberglass as well as the Shower Pan & Bases
-            </p>
-          </div>
-
-          <Image
             src="/rc-2.png"
             alt="tub bot"
             width="500"
@@ -83,6 +73,41 @@ export default function Home() {
             className="rounded-lg self-center mx-auto mb-10 sm:mb-16"
           />
         </div>
+        
+{/* code insert */}
+<div className="relative">
+
+
+  {/* Background Image (Heaven1.png) */}
+  
+  {/* Frosted Glass Effect Container (bg-red) */}
+  <Image
+    src="/Heaven1.png"
+    alt="bathroom"
+    width={1450}
+    height={100}
+    className="rounded-lg self-center sm:mb-10"
+  />
+  <div className="absolute inset-0  rounded-lg mx-10 h-100 mt-30">
+  <Image
+    src="/rc-1-noBG.png"
+    alt="tub bot"
+    width="650"
+    height="100"
+    className="rounded-lg self-center mx-auto"
+  />
+    <div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
+      <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-white">Rt-1: Bath & Shower cleanbot</h2>
+      <p className="text-white">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
+    </div>
+  </div>
+
+  {/* Robot Image (rc-1-noBG.png) */}
+  
+</div>
+
+  {/* end */}
+          
 
         <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
           <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white'>
