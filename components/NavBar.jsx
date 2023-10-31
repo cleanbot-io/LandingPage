@@ -39,24 +39,24 @@ function NavBar()
                 <div>
                     <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'p-12 md:p-0 block' : 'hidden'}`}>
                         <ul className="h-screen md:h-auto items-center justify-center md:flex ">
-                            <li className="pb-3 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
-                            <Link href="/about" onClick={() => setNavbar(!navbar)}>
-                                About
-                            </Link>
-                            </li>
                             <li className="pb-3 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
                             <Link href="/subscription" onClick={() => setNavbar(!navbar)}>
                                 Subscription
                             </Link>
                             </li>
                             <li className="pb-3 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
-                            <Link href="/contact" onClick={() => setNavbar(!navbar)}>
-                                Contact
+                            <Link href="/cleaners" onClick={() => setNavbar(!navbar)}>
+                                Cleaners
+                            </Link>
+                            </li>
+                            <li className="pb-3 text-xl text-black py-2 md:px-6 text-center border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
+                            <Link href="/about" onClick={() => setNavbar(!navbar)}>
+                                About
                             </Link>
                             </li>
                             <li className="pb-3 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
-                            <Link href="/cleaners" onClick={() => setNavbar(!navbar)}>
-                                Cleaners
+                            <Link href="/contact" onClick={() => setNavbar(!navbar)}>
+                                Contact
                             </Link>
                             </li>
                         </ul>
