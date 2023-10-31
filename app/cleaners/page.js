@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from 'next/image'
+import NavBar from '../../components/NavBar';
 
 function Cleaners()
 {
   return (
-    <div className="bg-[#191970] flex flex-row justify-center w-full">
+    <>
+    <NavBar />
+    <div className="bg-[#191970] flex flex-row justify-center w-full mt-20">
       <div className="bg-[#191970] h-[100vh] relative">
         {/* Container 1 */}
         <div className="flex flex-row justify-around items-center p-10 w-screen">
@@ -57,6 +60,7 @@ function Cleaners()
         </div>
       </div>
     </div>
+    </>
   )
 }
 
