@@ -7,8 +7,8 @@ function Cleaners()
   return (
     <>
     <NavBar />
-    <div className="bg-[#191970] flex flex-row justify-center w-full mt-20">
-      <div className="bg-[#191970] h-[100vh] relative">
+    <div className="dark bg-[#191970] flex flex-row justify-center w-full mt-20">
+      <div className="dark:bg-[#1a1a1a] h-[100vh] relative">
         {/* Container 1 */}
         <div className="flex flex-row justify-around items-center p-10 w-screen">
           <div className="flex flex-col items-center gap-12">
@@ -35,7 +35,7 @@ function Cleaners()
         </div>
 
         {/* Container 2 */}
-        <div className="bg-white flex flex-col p-10 w-screen">
+        <div className="dark bg-white flex flex-col p-10 w-screen">
           <div className="flex flex-wrap mx-auto space-x-16">
             <div className="flex-1 mb-4 pr-4">
               <h2 className="text-xl font-bold mb-2">what kind of work?</h2>
