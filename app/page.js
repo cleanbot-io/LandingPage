@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <NavBar />
       <Image
-        src="/cb-LR2.png"
+        src="/Clean.png"
         alt="living room"
         width={1500}
         height={100}
