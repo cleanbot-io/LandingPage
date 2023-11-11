@@ -1,9 +1,12 @@
 import React from 'react';
+import NavBar from '../../components/NavBar';
 
 function ContactPage()
 {
   return (
-    <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
+    <>
+      <NavBar />
+      <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
       
 
       {/* Main Text */}
@@ -16,6 +19,7 @@ function ContactPage()
       </div>
 
     </div>
+    </>
   )
 }
 

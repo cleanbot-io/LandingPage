@@ -1,10 +1,13 @@
 import React from 'react';
 import Image from 'next/image'
+import NavBar from '../../components/NavBar';
 
 function AboutPage()
 {
   return (
-    <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
+    <>
+      <NavBar />
+      <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
       
 
       {/* Main Text */}
@@ -17,6 +20,7 @@ function AboutPage()
       </div>
 
     </div>
+    </>
   )
 }
 

@@ -13,6 +13,9 @@ secondly, run the development server:
 yarn dev
 ```
 
+Package to use:
+https://keen-slider.io/examples#examples
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 Photo Credits:
@@ -21,3 +24,8 @@ by artist - Nataliya Yahela
 
 https://www.behance.net/gallery/173629859/Living-Room-Interior-Design
 by artist - Giorgi Mamaladze
+
+https://unsplash.com/photos/white-and-gray-optical-illusion
+by artist - JJ Ying
+
+  

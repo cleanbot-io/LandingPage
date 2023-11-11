@@ -7,7 +7,7 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { Mesh } from "three";
 
 function MeshComponent() {
-    const fileUrl = "/shiba/scene.gltf";
+    const fileUrl = "/cinimon/scene.gltf";
     const mesh = useRef(null);
     const gltf = useLoader(GLTFLoader, fileUrl);
 
@@ -26,9 +26,10 @@ function MeshComponent() {
   export function Shiba() {
     return (
       <div className='flex justify-center items-center h-screen'>
-        <Canvas className='h-2xl w-2xl'>
+        <Canvas className='h-lg w-lg'>
+        <ambientLight intensity={13.25} />
           <OrbitControls />
-          <pointLight position={[10,10,10]} />
+          <pointLight position={[6,12,10]} />
           <MeshComponent />
         </Canvas>
       </div>
