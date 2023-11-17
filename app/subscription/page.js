@@ -3,10 +3,40 @@ import React, { useState } from 'react';
 import NavBar from '../../components/NavBar';
 import Image from 'next/image'
 import Link from 'next/link'
-import SwipeableViews from 'react-swipeable-views';
-import { autoPlay } from 'react-swipeable-views-utils';
+// import SwipeableViews from 'react-swipeable-views';
+// import { autoPlay } from 'react-swipeable-views-utils';
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Button,
+} from "@material-tailwind/react";
+ 
 
-const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+// const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
+function CheckIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+      stroke="white"
+      className="h-3 w-3"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M4.5 12.75l6 6 9-13.5"
+      />
+    </svg>
+  );
+}
+
+ 
 
 function Subscription()
 {
@@ -38,41 +68,230 @@ function Subscription()
         </div>
 
         <div class="flex justify-center items-center pt-20">
-          <div class="flex space-x-5">
-            <div class="w-2/3 h-96 bg-white dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-              <h2 class="text-2xl dark:bg-slate-800 font-semibold p-5">Essentials</h2>
-              <p className="text-3xl font-semibold mt-4">
-                {isMonthly ? '$100/month' : '$1000/year'}
-              </p>
-              <p class="text-gray-600 dark:text-white mt-4">2 cleanings per month</p>
-              <p class="text-gray-600 dark:text-white mt-4">2-hour deep clean</p>
-              <p class="text-gray-600 dark:text-white mt-4">Bedroom & Bathroom</p>
-              <p class="text-gray-600 dark:text-white mt-4">Kitchen & Living room</p>
-              <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Subscribe</button>
-            </div>
-            <div class="w-2/3 h-96 bg-white dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-              <h2 class="text-2xl font-semibold dark:bg-slate-800 p-5">Standard</h2>
-              <p className="text-3xl font-semibold mt-4">
-                {isMonthly ? '$140/month' : '$1400/year'}
-              </p>
-              <p class="text-gray-600 dark:text-white mt-4">3 cleanings per month</p>
-              <p class="text-gray-600 dark:text-white mt-4">2-hour deep clean</p>
-              <p class="text-gray-600 dark:text-white mt-4">Bedroom & Bathroom</p>
-              <p class="text-gray-600 dark:text-white mt-4">Kitchen & Living room</p>
-              <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Subscribe</button>
-            </div>
-            <div class="w-2/3 h-96 bg-white dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-              <h2 class="text-2xl font-semibold p-5">Premium</h2>
-              <p className="text-3xl font-semibold mt-4">
-                {isMonthly ? '$200/month' : '$2000/year'}
-              </p>
-              <p class="text-gray-600 dark:text-white mt-4">1 cleaning per week</p>
-              <p class="text-gray-600 dark:text-white mt-4">2-hour deep clean</p>
-              <p class="text-gray-600 dark:text-white mt-4">Bedroom & Bathroom</p>
-              <p class="text-gray-600 dark:text-white mt-4">Kitchen & Living room</p>
-              <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700">Subscribe</button>
-            </div>
-          </div>
+          {/* placeholder cards place here */}
+          
+          {/* Essentials Card */}
+          <Card variant="gradient" className=" rounded-lg w-full bg-blue-800 max-w-[20rem] p-8 mr-4">
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
+      >
+        <Typography
+          variant="small"
+          color="white"
+          className="font-normal uppercase"
+        >
+          Essentials
+        </Typography>
+        <Typography
+          variant="h1"
+          color="white"
+          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
+        >
+          {isMonthly ? '$100/mo' : '$1000/yr'}
+        </Typography>
+      </CardHeader>
+      <CardBody className="p-0">
+        <ul className="flex flex-col gap-4">
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">2 cleanings per month</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">2hr deep clean</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">
+              Sweep / Mop / Vacuum
+            </Typography>
+          </li>
+        </ul>
+      </CardBody>
+      <CardFooter className="mt-12 p-0">
+        <Button
+          size="lg"
+          color="white"
+          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+          ripple={false}
+          fullWidth={true}
+        >
+          Buy Now
+        </Button>
+      </CardFooter>
+    </Card>
+    {/* Essentials Card */}
+
+
+    {/* Standard Card */}
+    <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] mr-4 p-8">
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
+      >
+        <Typography
+          variant="small"
+          color="white"
+          className="font-normal uppercase"
+        >
+          standard
+        </Typography>
+        <Typography
+          variant="h1"
+          color="white"
+          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
+        >
+          {isMonthly ? '$180/mo' : '$2160/yr'}
+        </Typography>
+      </CardHeader>
+      <CardBody className="p-0">
+        <ul className="flex flex-col gap-4">
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">3 cleanings per month</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">2hr deep clean</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">
+              Sweep / Mop / Vacuum
+            </Typography>
+          </li>
+        </ul>
+      </CardBody>
+      <CardFooter className="mt-12 p-0">
+        <Button
+          size="lg"
+          color="white"
+          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+          ripple={false}
+          fullWidth={true}
+        >
+          Buy Now
+        </Button>
+      </CardFooter>
+    </Card>
+    {/* Standard Card */}
+
+
+    {/* Premium Card */}
+    <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] p-8">
+      <CardHeader
+        floated={false}
+        shadow={false}
+        color="transparent"
+        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
+      >
+        <Typography
+          variant="small"
+          color="white"
+          className="font-normal uppercase"
+        >
+          Premium
+        </Typography>
+        <Typography
+          variant="h1"
+          color="white"
+          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
+        >
+          {isMonthly ? '$240/mo' : '$2880/yr'}
+        </Typography>
+      </CardHeader>
+      <CardBody className="p-0">
+        <ul className="flex flex-col gap-4">
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">1 clean per week</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">2hr deep clean</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
+          </li>
+          <li className="flex items-center gap-4">
+            <span className="rounded-full border border-white/20 bg-white/20 p-1">
+              <CheckIcon />
+            </span>
+            <Typography className="font-normal text-white">
+              Sweep / Mop / Vacuum
+            </Typography>
+          </li>
+        </ul>
+      </CardBody>
+      <CardFooter className="mt-12 p-0">
+        <Button
+          size="lg"
+          color="white"
+          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
+          ripple={false}
+          fullWidth={true}
+        >
+          Buy Now
+        </Button>
+      </CardFooter>
+    </Card>
+    {/* Premium Card */}
+
+          {/* end of cards */}
         </div>
 
         <h1 className='text-5xl pt-20 sm:text-8x1 font-bold text-black tracking-tight'>Additional {""}
