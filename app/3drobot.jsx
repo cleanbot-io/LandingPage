@@ -4,19 +4,21 @@ import { useRef } from "react";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
+import * as THREE from 'three';
 import { Mesh } from "three";
 
 function MeshComponent() {
-    const fileUrl = "/cinimon/scene.gltf";
+    const fileUrl = "/poly-vac/scene.gltf";
     const mesh = useRef(null);
     const gltf = useLoader(GLTFLoader, fileUrl);
 
     useFrame(() => {
       mesh.current.rotation.y += 0.01;
+      mesh.current.rotation.x = 0.2
     })
   
     return (
-      <mesh ref={mesh}>
+      <mesh ref={mesh} scale={10}>
         <primitive object={gltf.scene} />
       </mesh>
     );
@@ -25,11 +27,13 @@ function MeshComponent() {
 
   export function Shiba() {
     return (
-      <div className='flex justify-center items-center h-screen'>
-        <Canvas className='h-lg w-lg'>
-        <ambientLight intensity={13.25} />
+      <div style={{width: "100vh", height: "100vh"}}>
+        <Canvas>
+        <ambientLight intensity={0.9} />
+      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+      <pointLight position={[-10, -10, -10]} />
+          <directionalLight color="white" position={[0,0,5]}  />
           <OrbitControls />
-          <pointLight position={[6,12,10]} />
           <MeshComponent />
         </Canvas>
       </div>

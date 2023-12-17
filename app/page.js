@@ -98,7 +98,7 @@ export default function Home() {
             className="rounded-lg self-center mx-auto"
           />
             <div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
-              <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-white">Rt-1: Bath & Shower cleanbot</h2>
+              <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-white">Bezo: A Bath & Shower cleanbot</h2>
               <p className="text-white">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
             </div>
           </div>
