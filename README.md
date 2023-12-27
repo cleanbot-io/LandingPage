@@ -21,7 +21,7 @@ import Image from "next/image";
 ```
 Use Next's Image tag <Image> inplace of <img> or <image>
 while they work, it is not optimal for Next and Vercel throws errors upon compilation.
-- Make sure to assign a alt tag so it's <Image alt='bedroom image' width='1000' height='100'>
+- Make sure to assign a alt tag so it's  < Image alt='bedroom image' width='1000' height='100' >
 also assign each image: width and height props
 
 When using apostrophe
