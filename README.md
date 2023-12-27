@@ -13,6 +13,23 @@ secondly, run the development server:
 yarn dev
 ```
 
+
+## Style Guide
+When using an Image or img
+```code 
+import Image from "next/image";
+```
+Use Next's Image tag <Image> inplace of <img> or <image>
+while they work, it is not optimal for Next and Vercel throws errors upon compilation.
+- Make sure to assign a alt tag so it's <Image alt='bedroom image' width='1000' height='100'>
+also assign each image: width and height props
+
+When using apostrophe
+Use HTML entities for typography
+so no hard coding ' instead use a code &lsquo; &prime; or &ldquo;
+This way we are not getting errors on Vercel and it keeps NextJS happy
+
+## Misc Info
 Package to use:
 https://keen-slider.io/examples#examples
 

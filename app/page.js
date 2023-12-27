@@ -8,12 +8,22 @@ export default function Home() {
   return (
     <>
       <NavBar />
+
+      
+        <Image
+          alt='Bathtub robot'
+          src='/CB-tub.gif'
+          width={0}
+          height={0}
+          sizes='100vw'
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        />
+
       <Image
         src="/Clean.png"
         alt="living room"
         width={1500}
         height={100}
-        className='h-screen w-full'
       />
       
       <main className="flex min-h-screen flex-col items-center justify-between p-4 sm:p-8 md:p-12 lg:p-24">
@@ -57,14 +67,6 @@ export default function Home() {
       </div>
 
         <div className='items-center justify-center mb-10 sm:mb-16'>
-
-          <Image
-            src="/CB-tub.gif"
-            alt="tub bot"
-            width="1200"
-            height="100"
-            className="rounded-lg self-center mx-auto mb-10 sm:mb-16"
-          />
 
           <Image
             src="/rc-2.png"
