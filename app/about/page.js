@@ -17,8 +17,10 @@ function AboutPage() {
             &reg;Uniting Cutting-Edge Robotics with Human Excellence <br></br>
             </span>
           </h1>
+
+          <Image src="/enroute.png" alt="navigation" width={300} height={100} className="mt-10" />
           
-          <h2 className="text-3xl sm:text-8x1 font-bold text-black tracking-tight mb-8 pb-20 pt-20">
+          <h2 className="text-3xl sm:text-8x1 font-bold text-white  tracking-tight mb-8 pb-20 pt-20">
             Luxury cleaning, everyday prices
           </h2>
         </div>
@@ -27,14 +29,7 @@ function AboutPage() {
             Who We Are
           </h1>
           <i className="italic font-serif hover:font-sans text-3xl sm:text-8x1 text-black tracking-tight mb-8">
-            Cleanbot was established with a clear mission: Imagine waking up to
-            a spotless home, effortlessly clean. Forget expensive hotel service
-            or backbreaking chores. At Cleanbot, we &prime; re on a mission to make
-            professional cleaning a reality for everyone. Our team of passionate
-            innovators has developed smart robots that handle the grunt work,
-            saving you time and money. That means you can enjoy a sparkling home
-            for a fraction of the price, without lifting a finger. Ditch the
-            dust bunnies and embrace the freedom of Cleanbot.
+          &ldquo; Cleanbot was founded with a simple yet powerful mission: to transform every home into a haven of cleanliness, just like the seamless housekeeping services offered by hotels. Our approach is modern and efficient, utilizing a user-friendly mobile app to outsource chores to trusted and certified cleaners. What sets us apart is the inclusion of cutting-edge cleaning robots to assist our dedicated human cleaners. This means you can revel in the joy of a spotless home without any of the hassle. Embrace the future of cleaning with Cleanbot – where technology meets cleanliness for your ultimate convenience. &rdquo;
           </i>
           <em className="text-2xl sm:text-8x1 font-bold text-black tracking-tight">
             Get a free quote today and experience the magic of effortless
