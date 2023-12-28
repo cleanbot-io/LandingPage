@@ -340,6 +340,14 @@ function Subscription()
             height={100}
             className='mt-20 mb-10'
           />
+
+          <Image
+            src="/sqft.png"
+            alt="subscription img"
+            width={1000}
+            height={100}
+            className='mt-20 mb-10'
+          />
         </div>
       </div>
     </>
