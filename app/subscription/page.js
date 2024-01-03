@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import NavBar from '../../components/NavBar';
 import Image from 'next/image'
 import Link from 'next/link'
+import Footer from '../../components/Footer'
 // import SwipeableViews from 'react-swipeable-views';
 // import { autoPlay } from 'react-swipeable-views-utils';
 import {
@@ -350,6 +351,7 @@ function Subscription()
           />
         </div>
       </div>
+      <Footer />
     </>
   )
 }
