@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10 ">
-          <h3 className='text-2xl'>Empower maids with robotic tools, reducing their workload by 25% and doubling their turnover time, in-turn making our service affordable to you.</h3>
+          <h3 className='text-2xl'>Empowering maids with robotic tools, reducing their workload by 25% and doubling their turnover time, in-turn making our service affordable to you.</h3>
         </div>
 
         <h2 className='mt-10 text-white'>Interact with this 3d model</h2>
