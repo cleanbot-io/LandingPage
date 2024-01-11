@@ -31,7 +31,7 @@ function ContactPage()
         </h1>
 
       <h3 className='text-2xl text-black'>
-        We would love to hear any questions you may have. Please dop us a line.
+        We would love to hear any questions you may have. Please drop us a line.
       </h3>
 
     </div>
