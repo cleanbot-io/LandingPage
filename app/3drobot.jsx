@@ -29,9 +29,9 @@ function MeshComponent() {
     return (
       <div style={{width: "100vh", height: "100vh"}}>
         <Canvas>
-        <ambientLight intensity={0.9} />
-      <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
-      <pointLight position={[-10, -10, -10]} />
+          <ambientLight intensity={0.9} />
+          <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
+          <pointLight position={[-10, -10, -10]} />
           <directionalLight color="white" position={[0,0,5]}  />
           <OrbitControls />
           <MeshComponent />

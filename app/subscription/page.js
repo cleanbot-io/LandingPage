@@ -14,7 +14,6 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
- 
 
 // const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -52,7 +51,7 @@ function Subscription()
       <NavBar />
       <Image src="/minted2.jpg" alt="generic photo" width={1300} height={100} className='mt-20' />
       <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
-
+      
         {/* Main Text */}
         <div className='flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
           <h1 className='text-5xl sm:text-8x1 font-bold text-black tracking-tight'>Subscribe to a plan {""}
