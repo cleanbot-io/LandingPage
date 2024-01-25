@@ -12,7 +12,7 @@ function StandardTier() {
             <NavBar />
                 <div  className='pt-32 pb-20 bg-[#E5E5E5]'>
                     <h1 className='text-black text-center text-3xl m-4'>Standart tier - details</h1>
-                    <div className='flex justify-center gap-16'>
+                    <div className='flex justify-center'>
                         <div>
                             <p className='text-black text-4xl mt-8 mb-8'>The Standard tier is best for a small to medium <br/> living spaces</p>
                             <p className='mb-8 text-black text-xl'>One or two bedrooms with 2 bathroom</p>
