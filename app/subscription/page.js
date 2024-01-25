@@ -146,6 +146,7 @@ function Subscription()
 
     {/* Standard Card */}
     <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] mr-4 p-8">
+      <Link href='/subscription/standard_tier'>
       <CardHeader
         floated={false}
         shadow={false}
@@ -214,6 +215,7 @@ function Subscription()
           Buy Now
         </Button>
       </CardFooter>
+      </Link>
     </Card>
     {/* Standard Card */}
 
