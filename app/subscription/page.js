@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar';
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../../components/Footer'
+import StandardTier from '../../components/StandardTier'
 // import SwipeableViews from 'react-swipeable-views';
 // import { autoPlay } from 'react-swipeable-views-utils';
 import {
@@ -146,7 +147,6 @@ function Subscription()
 
     {/* Standard Card */}
     <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] mr-4 p-8">
-      <Link href='/subscription/standard_tier'>
       <CardHeader
         floated={false}
         shadow={false}
@@ -215,7 +215,6 @@ function Subscription()
           Buy Now
         </Button>
       </CardFooter>
-      </Link>
     </Card>
     {/* Standard Card */}
 
@@ -332,7 +331,8 @@ function Subscription()
             </p>
             <Link href="/about">Learn more</Link>
           </div>
-        </div>
+        </div>\
+        <StandardTier/>
 
         <div className='mt-10 flex flex-col items-center justify-center py-20'>
           <Image
