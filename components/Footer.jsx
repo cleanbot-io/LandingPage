@@ -1,4 +1,5 @@
 import Link from "next/link";
+import {SocialIcon} from "react-social-icons";
 
 function Footer()
 {
@@ -26,6 +27,24 @@ function Footer()
             <p className="text-center mt-4 text-gray-400 text-sm">
                 &copy; {currentYear} Cleanbot. All Rights Reserved.
             </p>
+            <div className ="flex flex-column p:10 w-screen text-blue-400 space-x-16 justify-between items-center">
+                <div className="space-x-4">
+                   <a href="" className="text-blue-400">Conduct</a>
+                    <a href="" className="text-blue-400">Terms of Use & Privacy</a>
+                    <a href="" className="text-blue-400">Disclosures</a> 
+                </div>
+                
+                <div className="space-x-4">
+                    <SocialIcon url="https://x.com/" bgColor = "transparent"/>
+                    <SocialIcon url="https://www.linkedin.com/company/cleanbot/" bgColor = "transparent"/>
+                    <SocialIcon url="https://facebook.com/" bgColor = "transparent"/>
+                    <SocialIcon url="https://instagram.com/" bgColor = "transparent"/>
+                    <SocialIcon url="https://youtube.com/" bgColor = "transparent" className="mr-4"/> 
+                </div>
+                
+                
+        
+            </div>
         </footer>
     )
 }
