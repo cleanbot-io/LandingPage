@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar';
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../../components/Footer'
+import StandardTier from '../../components/StandardTier'
 // import SwipeableViews from 'react-swipeable-views';
 // import { autoPlay } from 'react-swipeable-views-utils';
 import {
@@ -14,7 +15,6 @@ import {
   Typography,
   Button,
 } from "@material-tailwind/react";
- 
 
 // const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -52,7 +52,7 @@ function Subscription()
       <NavBar />
       <Image src="/minted2.jpg" alt="generic photo" width={1300} height={100} className='mt-20' />
       <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
-
+      
         {/* Main Text */}
         <div className='flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
           <h1 className='text-5xl sm:text-8x1 font-bold text-black tracking-tight'>Subscribe to a plan {""}
@@ -331,7 +331,8 @@ function Subscription()
             </p>
             <Link href="/about">Learn more</Link>
           </div>
-        </div>
+        </div>\
+        <StandardTier/>
 
         <div className='mt-10 flex flex-col items-center justify-center py-20'>
           <Image
