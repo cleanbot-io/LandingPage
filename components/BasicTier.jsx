@@ -1,13 +1,10 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
-import NavBar from '../../../components/NavBar';
-import Footer from '../../../components/Footer';
 
 function BasicTier() {
     return (
         <div>
-            <NavBar />
             <div  className='pt-32 pb-20 bg-black min-h-screen'>
                 {/* Texts */}
                 <h1 className='font-mono text-white text-center text-3xl m-4 py-4'>Basic tier - details</h1>
@@ -40,7 +37,6 @@ function BasicTier() {
                     </div> 
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

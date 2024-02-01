@@ -4,6 +4,7 @@ import NavBar from '../../components/NavBar';
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../../components/Footer'
+import BasicTier from '../../components/BasicTier'
 // import SwipeableViews from 'react-swipeable-views';
 // import { autoPlay } from 'react-swipeable-views-utils';
 import {
@@ -331,7 +332,7 @@ function Subscription()
             </p>
             <Link href="/about">Learn more</Link>
           </div>
-        </div>
+        </div>\
 
         <div className='mt-10 flex flex-col items-center justify-center py-20'>
           <Image
@@ -351,6 +352,8 @@ function Subscription()
           />
         </div>
       </div>
+      
+      <BasicTier />
       <Footer />
     </>
   )
