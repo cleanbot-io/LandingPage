@@ -332,7 +332,7 @@ function Subscription()
             </p>
             <Link href="/about">Learn more</Link>
           </div>
-        </div>\
+        </div>
 
         <div className='mt-10 flex flex-col items-center justify-center py-20'>
           <Image
@@ -352,7 +352,7 @@ function Subscription()
           />
         </div>
       </div>
-      
+
       <BasicTier />
       <Footer />
     </>
