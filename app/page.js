@@ -40,8 +40,10 @@ export default function Home() {
           </h3>
         </div>
 
-        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10 ">
-          <h3 className='text-2xl'>Empowering maids with robotic tools, reducing their workload by 25% and doubling their turnover time, in-turn making our service affordable to you.</h3>
+        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10 text-orange-400 dark:text-emerald-200 ">
+          <h3 className='text-2xl'>Cleanbot brings the hotel Housekeeping experience to metropolitan living spaces.
+          Delegate your house chores & choose exactly what it is you need cleaned in your home all within our app.
+          We equip each of our cleaners with a robot bathroom cleaning aide </h3>
         </div>
 
         <h2 className='mt-10 text-white'>Interact with this 3d model</h2>
