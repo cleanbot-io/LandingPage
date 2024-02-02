@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import Image from 'next/image'
 import NavBar from '../../components/NavBar';
@@ -9,7 +10,7 @@ function Cleaners()
     <>
     <NavBar />
     <div className="dark justify-center w-full mt-20">
-      <div className="h-[100vh] relative">
+      <div className="h-100vh relative">
         {/* Container 1 */}
         <div className="flex flex-row justify-around items-center p-10 w-screen">
           <div className="flex flex-col items-center gap-12">
@@ -61,7 +62,16 @@ function Cleaners()
         </div>
         
         <div className='flex items-center justify-center flex-col'>
-        <Image src="/premium.png" alt="Cleaner" width={350} height={100} className='mt-10 mb-5' />
+        <Image 
+          src="/premium.png" 
+          alt="premiumCleaner" 
+          width={350}
+          height={100}
+          className='mt-10 mb-5'
+          onError={(e) => {
+            e.target.src = '/Pre2.png';
+          }}
+        />
         <Image src="/upcoming.png" alt="Cleaner" width={350} height={100} className='mt-5 mb-5' />
         <Image src="/dash.png" alt="Cleaner" width={350} height={100} className='mt-5 mb-5' />
         </div>
