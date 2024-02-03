@@ -65,15 +65,15 @@ function Cleaners()
         <Image 
           src="/premium.png" 
           alt="premiumCleaner" 
-          width={350}
-          height={100}
+          width={300}
+        height={300}
           className='mt-10 mb-5'
           onError={(e) => {
             e.target.src = '/Pre2.png';
           }}
         />
-        <Image src="/upcoming.png" alt="Cleaner" width={350} height={100} className='mt-5 mb-5' />
-        <Image src="/dash.png" alt="Cleaner" width={350} height={100} className='mt-5 mb-5' />
+        <Image src="/upcoming.png" alt="Cleaner" width={300} height={300} className='mt-5 mb-5' />
+        <Image src="/dash.png" alt="Cleaner" width={300} height={300} className='mt-5 mb-5' />
         </div>
       </div>
     </div>
