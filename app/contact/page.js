@@ -28,12 +28,12 @@ function ContactPage()
       </div>
       <h1 className='text-5xl sm:text-8x1 font-bold mt-10 text-black tracking-tight mb-20'> 
         {""} Get in touch
-        </h1>
-
+      </h1>
+      
       <h3 className='text-2xl text-black'>
         We would love to hear any questions you may have. Please drop us a line.
       </h3>
-
+      <a className='text-2xl text-black m-10' href="mailto:cleanbotmail@gmail.com?subject=Contact page inquiry!&body=Hello! Very interested in Cleanbot. Can I please get more information on your product?">cleanbotmail@gmail.com</a>
     </div>
     <Footer />
     </>
