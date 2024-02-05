@@ -18,7 +18,7 @@ function BasicTier() {
                 </div>
                 <div className='relative mt-32 -ml-32'>
                     <Image
-                        src="/basicSub.png"
+                        src="/BasicSub.png"
                         width='300'
                         height='400'
                         alt="standard subscription perks"
