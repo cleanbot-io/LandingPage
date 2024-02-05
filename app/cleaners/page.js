@@ -63,7 +63,7 @@ function Cleaners()
         
         <div className='flex items-center justify-center flex-col'>
         <Image 
-          src="/premium.png" 
+          src="/Premium.png" 
           alt="premiumCleaner" 
           width={300}
         height={300}
