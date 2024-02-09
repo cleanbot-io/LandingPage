@@ -11,6 +11,7 @@ export default function Home() {
 
       
         <Image
+          loading='eager'
           alt='Bathtub robot'
           src='/CB-tub.gif'
           width={0}
