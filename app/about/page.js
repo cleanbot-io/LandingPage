@@ -64,6 +64,15 @@ function AboutPage() {
             />
           </div>
         </div>
+        <div>
+          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-8 pt-20 text-center">Who we are</h2>
+          <div>
+            
+          </div>
+          <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
+          <p className=" text-2xl text-center">"The faces behind the code - our intern contributors"</p>
+          <div></div>
+        </div>
       </div>
       <Footer />
     </>
