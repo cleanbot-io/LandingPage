@@ -41,13 +41,11 @@ export default function Home() {
           </h3>
         </div>
 
-        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10 text-orange-400 dark:text-emerald-200 ">
-          <h3 className='text-2xl'>Cleanbot brings the hotel Housekeeping experience to metropolitan living spaces.
-          Delegate your house chores & choose exactly what it is you need cleaned in your home all within our app.
-          We equip each of our cleaners with a robot bathroom cleaning aide </h3>
+        <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
+          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Experience modern housekeeping, effortlessly automated through our app, and enhanced by our robot bathroom cleaning aid</h3>
         </div>
 
-        <h2 className='mt-10 text-white'>Interact with this 3d model</h2>
+        <h2 className='mt-10 text-white'>Interact with this 3d model (placeholder model)</h2>
         <Shiba />
 
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
@@ -61,52 +59,52 @@ export default function Home() {
 
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
-          <span className='bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
+          <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
             cleaning robot
           </span>
         </h1>
       </div>
 
-        <div className='items-center justify-center mb-10 sm:mb-16'>
+        <div className='items-center justify-center'>
 
           <Image
-            src="/rc-2.png"
-            alt="tub bot"
-            width="500"
-            height="100"
-            className="rounded-lg self-center mx-auto mb-10 sm:mb-16"
+            src="/rt-1-intro.png"
+            alt="tubbot intro"
+            width="1500"
+            height="300"
+            className="rounded-lg self-center mx-auto mb-10"
           />
-        </div>
-        
-        {/* code insert */}
-        <div className="relative">
 
+    <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>The world&apos;s first robot to automate shower and bathtub cleaning
+    </h1>
 
-          {/* Background Image (Heaven1.png) */}
-          
-          {/* Frosted Glass Effect Container (bg-red) */}
           <Image
-            src="/Heaven1.png"
-            alt="bathroom"
-            width={1450}
-            height={100}
-            className="rounded-lg self-center sm:mb-10"
+            src="/rt1-features.png"
+            alt="tubbot features"
+            width="1500"
+            height="300"
+            className="rounded-lg self-center mx-auto mb-10"
           />
-          <div className="absolute inset-0  rounded-lg mx-10 h-100 mt-30">
+
+<h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>Features</h1>
+
+<div className='my-20'>
+<div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 bg-black-200 backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
+              <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-black">Rt-1: A Bath & Shower cleanbot</h2>
+              <p className="text-black">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
+            </div>
+</div>
+
+
+
           <Image
-            src="/rc-1-noBG.png"
-            alt="tub bot"
-            width="650"
-            height="100"
+            src="/rt-1-proto.png"
+            alt="tubbot in shower"
+            width="700"
+            height="300"
             className="rounded-lg self-center mx-auto"
           />
-            <div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
-              <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-white">Rt-1: A Bath & Shower cleanbot</h2>
-              <p className="text-white">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
-            </div>
-          </div>
-
-          {/* Robot Image (rc-1-noBG.png) */}
+        
           
         </div>
 
@@ -116,9 +114,9 @@ export default function Home() {
         <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
           <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white'>
             Safeguarding job opportunities for our cleaners While being{" "} 
-            <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] text-transparent bg-clip-text'>
+            <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
               committed to{" "}
-              <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 text-transparent bg-clip-text'>
+              <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
                 innovation
               </span>
             </span>
