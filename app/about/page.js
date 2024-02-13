@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
+import InfoCard from "../../components/InfoCard";
 function AboutPage() {
   return (
     <>
@@ -66,12 +67,19 @@ function AboutPage() {
         </div>
         <div>
           <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-8 pt-20 text-center">Who we are</h2>
-          <div>
-            
+          <div className="flex gap-10 justify-between w-3/5 m-auto">
+            <InfoCard />
+            <InfoCard />
           </div>
           <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
           <p className=" text-2xl text-center">"The faces behind the code - our intern contributors"</p>
-          <div></div>
+          <div className="flex gap-10 p-10">
+            <InfoCard />
+            <InfoCard />
+            <InfoCard />
+            <InfoCard />
+            <InfoCard />
+          </div>
         </div>
       </div>
       <Footer />
