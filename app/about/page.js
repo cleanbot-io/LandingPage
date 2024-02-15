@@ -3,7 +3,38 @@ import Image from "next/image";
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 import InfoCard from "../../components/InfoCard";
+import avatar from "../../public/avatar.png";
+
 function AboutPage() {
+  const team = [{
+    name: 'Kelvin Knighton',
+    position: 'Founder & CEO',
+  },
+  {
+    name: 'Rosalynn Rob',
+    position: 'Adviser'
+  },
+  {
+    name: 'Gaspar B',
+    position: 'Software Engineer'
+  },
+  {
+    name: 'Nate M',
+    position: 'Software Developer'
+  },
+  {
+    name: 'Steve G',
+    position: 'Software Developer'
+  },
+  {
+    name: 'Jiena W',
+    position: 'Software Developer'
+  },
+  {
+    name: 'Alex S',
+    position: 'Software Developer'
+}]
+
   return (
     <>
       <NavBar />
@@ -65,20 +96,21 @@ function AboutPage() {
             />
           </div>
         </div>
-        <div>
-          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-8 pt-20 text-center">Who we are</h2>
-          <div className="flex gap-10 justify-between w-3/5 m-auto">
-            <InfoCard />
-            <InfoCard />
+        <div className="w-4/5">
+          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Who we are</h2>
+          <div className="flex justify-around w-4/5 m-auto">
+            {team.map(function(member, index) {
+              if (index < 2) {
+                return <InfoCard key={index} member={member} image={avatar} avatarW={250}/>}
+            })}
           </div>
           <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
-          <p className=" text-2xl text-center">"The faces behind the code - our intern contributors"</p>
-          <div className="flex gap-10 p-10">
-            <InfoCard />
-            <InfoCard />
-            <InfoCard />
-            <InfoCard />
-            <InfoCard />
+          <p className="italic text-2xl text-center">"The faces behind the code - our intern contributors"</p>
+          <div className="flex p-10 justify-around m-auto">
+            {team.map(function(member, index) {
+              if (index > 1) {
+                return <InfoCard key={index} member={member} image={avatar} avatarW={100}/>}
+            })}
           </div>
         </div>
       </div>
