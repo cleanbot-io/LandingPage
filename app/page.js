@@ -89,7 +89,7 @@ export default function Home() {
 <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>Features</h1>
 
 <div className='my-20'>
-<div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 bg-black-200 backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
+<div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 bg-black-200 dark:bg-white backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
               <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-black">Rt-1: A Bath & Shower cleanbot</h2>
               <p className="text-black">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
             </div>
