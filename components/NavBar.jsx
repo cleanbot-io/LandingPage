@@ -59,6 +59,11 @@ function NavBar()
                                 Contact
                             </Link>
                             </li>
+                            <li className="pb-3 text-xl text-black py-2 px-6 text-center  border-b-2 md:border-b-0  hover:bg-blue-300  border-blue-300  md:hover:text-blue-300 md:hover:bg-transparent">
+                            <Link href="/investors" onClick={() => setNavbar(!navbar)}>
+                                Investors
+                            </Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
