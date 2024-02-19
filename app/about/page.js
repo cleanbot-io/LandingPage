@@ -104,7 +104,7 @@ function AboutPage() {
           </div>
         </div>
         <div className="w-4/5">
-          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Who we are</h2>
+          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Meet the Minds Behind Our Mission</h2>
           <div className="flex justify-around w-4/5 m-auto">
             {team.map(function(member, index) {
               if (index < 2) {
