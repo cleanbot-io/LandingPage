@@ -9,30 +9,37 @@ function AboutPage() {
   const team = [{
     name: 'Kelvin Knighton',
     position: 'Founder & CEO',
+    photo: '/thinking.jpg'
   },
   {
     name: 'Rosalynn Rob',
-    position: 'Adviser'
+    position: 'Adviser',
+    photo: '/rosalynn.png'
   },
   {
     name: 'Gaspar B',
-    position: 'Software Engineer'
+    position: 'Software Engineer',
+    photo: '/gaspar.png'
   },
   {
     name: 'Nate M',
-    position: 'Software Developer'
+    position: 'Software Developer',
+    photo: '/nathan.png'
   },
   {
     name: 'Steve G',
-    position: 'Software Developer'
+    position: 'Software Developer',
+    photo: '/steven.png'
   },
   {
     name: 'Jiena W',
-    position: 'Software Developer'
+    position: 'Software Developer',
+    photo: '/jiena.png'
   },
   {
     name: 'Alex S',
-    position: 'Software Developer'
+    position: 'Software Developer',
+    photo: '/alex.png'
 }]
 
   return (
@@ -101,7 +108,7 @@ function AboutPage() {
           <div className="flex justify-around w-4/5 m-auto">
             {team.map(function(member, index) {
               if (index < 2) {
-                return <InfoCard key={index} member={member} image={avatar} avatarW={250}/>}
+                return <InfoCard key={index} member={member} image={member.photo} avatarW={200} avatarH={200} />}
             })}
           </div>
           <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
@@ -109,7 +116,7 @@ function AboutPage() {
           <div className="flex p-10 justify-around m-auto">
             {team.map(function(member, index) {
               if (index > 1) {
-                return <InfoCard key={index} member={member} image={avatar} avatarW={100}/>}
+                return <InfoCard key={index} member={member} image={member.photo} avatarW={100} avatarH={100}/>}
             })}
           </div>
         </div>
