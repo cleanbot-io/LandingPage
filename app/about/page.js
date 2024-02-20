@@ -22,12 +22,12 @@ function AboutPage() {
     photo: '/gaspar.png'
   },
   {
-    name: 'Nate M',
+    name: 'Nathan M',
     position: 'Software Developer',
     photo: '/nathan.png'
   },
   {
-    name: 'Steve G',
+    name: 'Steven G',
     position: 'Software Developer',
     photo: '/steven.png'
   },
@@ -37,7 +37,7 @@ function AboutPage() {
     photo: '/jiena.png'
   },
   {
-    name: 'Alex S',
+    name: 'Alexander S',
     position: 'Software Developer',
     photo: '/alex.png'
 }]
@@ -63,6 +63,7 @@ function AboutPage() {
             Luxury cleaning, everyday prices
           </h2>
         </div>
+
         <div className="bg-blue-100 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-20 pb-20">
           <h1 className="text-5xl sm:text-8x1 font-bold text-black tracking-tight mb-8">
             Who We Are
@@ -75,6 +76,28 @@ function AboutPage() {
             cleanliness
           </em>
         </div>
+
+        {/* place team info here */}
+        <div className="w-4/5">
+          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Meet the Minds Behind Our Mission</h2>
+          <div className="flex justify-around w-4/5 m-auto">
+            {team.map(function(member, index) {
+              if (index < 2) {
+                return <InfoCard key={index} member={member} image={member.photo} avatarW={200} avatarH={200} />}
+            })}
+          </div>
+          <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
+          <p className="italic text-2xl text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
+          <div className="flex p-10 justify-around m-auto">
+            {team.map(function(member, index) {
+              if (index > 1) {
+                return <InfoCard key={index} member={member} image={member.photo} avatarW={100} avatarH={100}/>}
+            })}
+          </div>
+        </div>
+        {/* place team info here */}
+
+
         <div className="flex flex-row text-center mx-auto max-w-[1260px] items-center justify-center pt-20">
           <div className="flex flex-col text-center max-w-[500px]">
             <h1 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-8 ">
@@ -101,23 +124,6 @@ function AboutPage() {
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
               width={600} height={100}
             />
-          </div>
-        </div>
-        <div className="w-4/5">
-          <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Meet the Minds Behind Our Mission</h2>
-          <div className="flex justify-around w-4/5 m-auto">
-            {team.map(function(member, index) {
-              if (index < 2) {
-                return <InfoCard key={index} member={member} image={member.photo} avatarW={200} avatarH={200} />}
-            })}
-          </div>
-          <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
-          <p className="italic text-2xl text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
-          <div className="flex p-10 justify-around m-auto">
-            {team.map(function(member, index) {
-              if (index > 1) {
-                return <InfoCard key={index} member={member} image={member.photo} avatarW={100} avatarH={100}/>}
-            })}
           </div>
         </div>
       </div>
