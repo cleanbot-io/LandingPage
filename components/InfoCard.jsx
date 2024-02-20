@@ -12,8 +12,8 @@ function InfoCard({member, image, avatarW, avatarH }) {
                 height={avatarH}
                 className='mb-3'
             />
-            <p className='text-xl'>{member.name}</p>
-            <p className='italic'>{member.position}</p>
+            <p className='text-xl text-white'>{member.name}</p>
+            <p className='italic text-white'>{member.position}</p>
         </div>
     )
 }
