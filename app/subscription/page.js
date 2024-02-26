@@ -6,6 +6,8 @@ import Link from 'next/link'
 import Footer from '../../components/Footer'
 import StandardTier from '../../components/StandardTier'
 import BasicTier from '../../components/BasicTier'
+import PremiumTier from '../../components/PremiumTier'
+
 // import SwipeableViews from 'react-swipeable-views';
 // import { autoPlay } from 'react-swipeable-views-utils';
 import {
@@ -303,37 +305,38 @@ function Subscription()
             +
         </h1>
 
-        <div class="flex space-x-5 pt-20">
+        <div class="flex space-x-5 pt-20 mb-10">
           <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
             <h2 class="text-2xl text-white dark:bg-slate-800 font-semibold p-5">Fridge</h2>
             <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$100/month' : '$1000/year'}
+              {isMonthly ? '$50/month' : '$500/year'}
             </p>
             <Link href="/about">Learn more</Link>
           </div>
           <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
             <h2 class="text-2xl text-white font-semibold dark:bg-slate-800 p-5">Closet</h2>
             <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$140/month' : '$1400/year'}
+              {isMonthly ? '$60/month' : '$600/year'}
             </p>
             <Link href="/about">Learn more</Link>
           </div>
           <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
             <h2 class="text-2xl text-white font-semibold p-5">Microwave</h2>
             <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$200/month' : '$2000/year'}
+              {isMonthly ? '$20/month' : '$200/year'}
             </p>
             <Link href="/about">Learn more</Link>
           </div>
           <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
             <h2 class="text-2xl text-white font-semibold p-5">Laundry</h2>
             <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$200/month' : '$2000/year'}
+              {isMonthly ? '$30/month' : '$300/year'}
             </p>
             <Link href="/about">Learn more</Link>
           </div>
         </div>
-        <StandardTier/>
+        <PremiumTier />
+        <StandardTier />
         <BasicTier />
 
         <div className='mt-10 flex flex-col items-center justify-center py-20'>
@@ -341,14 +344,6 @@ function Subscription()
             src="/cb-sub.png"
             alt="subscription img"
             width={300}
-            height={100}
-            className='mt-20 mb-10'
-          />
-
-          <Image
-            src="/sqft.png"
-            alt="subscription img"
-            width={1000}
             height={100}
             className='mt-20 mb-10'
           />
