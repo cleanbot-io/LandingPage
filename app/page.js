@@ -3,13 +3,13 @@ import NavBar from '../components/NavBar'
 import Subscribe from '../components/Subscribe'
 import Image from 'next/image'
 import {Shiba} from './3drobot'
+import { Suspense } from 'react'
+import Loading from '../components/Loading'
 
 export default function Home() {
   return (
-    <>
+    <Suspense fallback={<Loading />}>
       <NavBar />
-
-      
         <Image
           loading='eager'
           alt='Bathtub robot'
@@ -19,7 +19,6 @@ export default function Home() {
           sizes='100vw'
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
         />
-
       <Image
         src="/Clean.png"
         alt="living room"
@@ -40,14 +39,11 @@ export default function Home() {
             Revolutionary Housekeeping for the Modern Era
           </h3>
         </div>
-
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
           <h3 className='text-2xl from-[#7575FF] to-purple-600'>Experience modern housekeeping, effortlessly automated through our app, and enhanced by our robot bathroom cleaning aid</h3>
         </div>
-
         <h2 className='mt-10 text-white'>Interact with this 3d model (placeholder model)</h2>
         <Shiba />
-
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
             src="/mock.png"
@@ -56,7 +52,6 @@ export default function Home() {
             alt="Mobile apps"
           />
         </div>
-
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
           <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
@@ -128,10 +123,8 @@ export default function Home() {
           <h4>These are not sugar coated words - check out our blog for the plan on this ˃</h4>
         </div>
       </main>
-
       <Subscribe/>
-
       <Footer />
-    </>
+    </Suspense>
   )
 }
