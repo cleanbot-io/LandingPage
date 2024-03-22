@@ -9,7 +9,7 @@ import FrequentQuestions from '../../components/FrequentQuestions'
 
 function Cleaners()
 {
-  let videoSrc = "/Housekeeping.mp4"
+  let videoSrc = "/huh2.mp4"
   return (
     <>
     <NavBar />
@@ -17,27 +17,19 @@ function Cleaners()
       <div className="relative">
       
         {/* Container 1 */}
-        <div className="flex">
+        <div className="flex mt-20">
           <ReactPlayer 
             url={videoSrc}
             playing={true} // Autoplay the video
             controls={false} // Hide controls
             muted={true} // Mute the video
+            loop={true}
             width="100%"
             height="100%"
           />
           <source src={videoSrc} type="video/mp4" />
           
         </div>
-        <Image
-            src="/ourcard.png"
-            height={300}
-            width={300}
-            alt='housekeeping card'
-            className='z-1'
-          />
-
-
         {/* Container 2 */}
         <div className="dark bg-white flex flex-col p-10 w-screen">
           <div className="flex flex-wrap mx-auto space-x-16">
