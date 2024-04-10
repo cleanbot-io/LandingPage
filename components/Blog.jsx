@@ -7,7 +7,7 @@ const Blogs = () => {
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@keltheceo");
+        const response = await fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cleanbotmail");
         const data = await response.json();
         const items = data.items || [];
         setBlogPosts(items);
