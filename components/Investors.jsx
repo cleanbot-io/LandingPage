@@ -64,7 +64,7 @@ function Investors () {
             
             <div className='flex flex-col mx-auto items-center justify-center py-24 bg-[#fff]'>
                 <h1 className='font-serif text-5xl text-black'>INVESTOR INQUIRIES</h1>
-                <h1 className='font-serif text-4xl text-blac pt-8'>cleanbotmail@gmail.com</h1>
+                <h1 className='font-serif text-4xl text-blac pt-8'>cleanbotinvestor@gmail.com</h1>
             </div>
 
         </div>
