@@ -38,7 +38,7 @@ const Blogs = () => {
 const BlogPost = ({ title, link }) => (
   <div className="flex justify-center items-center p-2 bg-gray-900 rounded-md m-10 w-30">
     <a href={link} target="_blank" className="flex flex-col items-center">
-      <img src="/cb3d.png" className="mb-8 h-60" alt="Blog Post Image" />
+      <img src="/rc-1.png" className="mb-8 h-60" alt="Blog Post Image" />
       <p className="text-center text-white">
         {title}
       </p>
