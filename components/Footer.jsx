@@ -22,10 +22,10 @@ function Footer()
                 </Link>
 
 
-                <Link href = "/contact" className="text-blue-400 hover:text-blue-300">
+                <Link href = "/roadmap" className="text-blue-400 hover:text-blue-300">
                 <span className="text-gray-400"> | </span>
                 
-                    Contact
+                    Roadmap
                 
                 </Link>
 
