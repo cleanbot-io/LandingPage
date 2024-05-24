@@ -53,10 +53,12 @@ function Investors () {
                     schedule cleanings, customize your preferences, and manage payments—all at your fingertips.
                     </p>
                     <p className='pt-6'>
-                    For our dedicated cleaners, we provide a companion app for easy scheduling, payment
-                    management, and access to detailed cleaning instructions. Plus, each cleaner is equipped
-                    with the cutting-edge Cleanbot RT-1, a robotic assistant specifically designed to tackle tub
-                    and shower cleaning tasks
+                      For our dedicated cleaners, we provide a companion app for easy scheduling, payment management,
+                      and access to detailed cleaning instructions. Each cleaner is also equipped with the cutting-edge
+                      Cleanbot RT-1, a robotic assistant specifically designed to tackle tub and shower cleaning tasks.
+                      As we scale, the role of our cleaners will evolve, positioning them as commanders of a swarm of
+                      cleaning bots and serving as onsite troubleshooters to collaborate with engineers if problems 
+                      arise, ensuring efficiency and precision across all cleaning tasks.
                     </p>
                     <p className='pt-6'>
                     &ldquo;Experience the future of urban home care with Cleanbot.&rdquo;
