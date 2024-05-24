@@ -40,10 +40,9 @@ export default function Home() {
           </h3>
         </div>
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
-          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Experience modern housekeeping, effortlessly automated through our app, and enhanced by our robot bathroom cleaning aid</h3>
+          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Experience housekeeping like never before. Subscribe to our service and enjoy a clean apartment without lifting a finger.
+              Download our app today and delegate your house chores.</h3>
         </div>
-        <h2 className='mt-10 text-white'>Interact with this 3d model (placeholder model)</h2>
-        <Shiba />
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
             src="/mock.png"
@@ -52,6 +51,8 @@ export default function Home() {
             alt="Mobile apps"
           />
         </div>
+        <h2 className='mt-10 text-white'>Interact with this 3d model (placeholder model)</h2>
+        <Shiba />
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
           <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
