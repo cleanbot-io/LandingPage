@@ -51,8 +51,65 @@ export default function Home() {
             alt="Mobile apps"
           />
         </div>
-        <h2 className='mt-10 text-white'>Interact with this 3d model (placeholder model)</h2>
-        <Shiba />
+        <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
+        <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight'>
+          On demand housekeeping with trusted & verified cleaners
+        </h1>
+      </div>
+
+      <div className='flex flex-row flex-wrap md:flex-nowrap mb-20 justify-center'>
+          <Image
+            src="/Pre2.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+            className='mr-5 mb-5'
+          />
+          <Image
+            src="/closet.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+            className='mr-5 mb-5'
+          />
+          <Image
+            src="/CB_Rt1.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+          />
+        </div>
+
+        <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
+        <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight'>
+          Cleanbot reimburses you up to $2M for any damage to your home/apartment/loft, so take comfort in knowing you are protected
+        </h1>
+      </div>
+
+        <div className='flex flex-row flex-wrap md:flex-nowrap mb-20 justify-center'>
+          <Image
+            src="/dash.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+            className='mr-5 mb-5'
+          />
+          <Image
+            src="/noti.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+            className='mr-5 mb-5'
+          />
+          <Image
+            src="/fridge.png"
+            width="250"
+            height="200"
+            alt="Mobile apps"
+          />
+        </div>
+
+       
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
           <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
@@ -71,7 +128,7 @@ export default function Home() {
             className="rounded-lg self-center mx-auto mb-10"
           />
 
-    <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>The world&apos;s first robot to automate shower and bathtub cleaning
+    <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>The world&apos;s first robot to automate shower and bathtub cleaning
     </h1>
 
           <Image
@@ -105,6 +162,8 @@ export default function Home() {
         </div>
 
           {/* end */}
+          <h2 className='mt-10 dark:text-white'>Interact with the 3d model below (placeholder model)</h2>
+        <Shiba />
           
 
         <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
