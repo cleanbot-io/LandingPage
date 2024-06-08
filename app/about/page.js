@@ -87,7 +87,7 @@ function AboutPage() {
             })}
           </div>
           <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
-          <p className="italic text-2xl text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
+          <p className="italic text-2xl text-white text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
           <div className="flex p-10 justify-around m-auto">
             {team.map(function(member, index) {
               if (index > 1) {

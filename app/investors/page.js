@@ -19,22 +19,15 @@ function Investors () {
                     Investor Relations
                 </h1>
 
-                <div className='bg-[#8EFEFC] max-w-full sm:w-2/3 md:w-1/2 lg:w-2/5 rounded-full flex mt-12 p-6 items-center justify-center relative'>
-                    <div className='absolute left-8'>
+                <div className='items-center justify-center relative'>
+                    
                         <Image
-                            className='sm:w-18 sm:h-18 md:w-18 md:h-18 lg:w-18 lg:h-18 xl:w-18 xl:h-18'
-                            src="/dalle.png"
-                            width='60'
-                            height='60'
+                            src="/preseed2.png"
+                            width='300'
+                            height='100'
                             alt='icon'
+                            className='mt-10'
                         />
-                     </div>
-        
-                    <div className='flex items-center justify-center'>
-                        <div className='font-sans font-thin text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl tracking-widest text-black text-center'>
-                            <span className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-thin'>R</span>AISING&nbsp;<span className='text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-thin'>P</span>RESEED
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -69,6 +62,10 @@ function Investors () {
             <div className='flex flex-col mx-auto items-center justify-center py-24 bg-[#fff]'>
                 <h1 className='font-serif text-5xl text-black'>INVESTOR INQUIRIES</h1>
                 <h1 className='font-serif text-4xl text-black pt-8'>cleanbotmail@gmail.com</h1>
+                
+                <button class="mt-10 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                <a className='bg-re' href='cleanbot-pre-seed.pdf' download>Download our pitch deck</a>
+                    </button>
             </div>
 
         </div>
