@@ -60,7 +60,7 @@ Gained recognition at SxSw, with coverage in three news articles.
                 <h1 className='font-serif text-5xl text-black -ml-80'> - Series B and Beyond</h1>
                 <h1 className='font-serif text-4xl text-blue-500 pt-8'>Shaping up to be a Bluechip</h1>
                 <p className='text-2xl text-black  flex flex-col text-center mx-auto max-w-[960px] justify-center mb-20'>
-                we&apos;ve strategically optimized our operations. Our lean team of 18 housekeepers, supplemented by subcontractors, efficiently manages contract onboarding and produces training material. We&apos;ve secured legal counsel through a retained law firm. Expanding our fleet to 72 Rt-1 robots, we&apos;re on the brink of launching our Rt-2 product, focusing on automated dishwashing. With over 1 million app downloads, our user interface design has garnered acclaim. Additionally, we&apos;ve successfully closed a $150 million venture capital funding round, propelling us into an exciting new chapter of growth and innovation.
+                we&apos;ve strategically optimized our operations. Our lean team of 18 housekeepers, supplemented by an army of certified subcontractors, efficiently manages contract onboarding and produces training material. We&apos;ve secured legal counsel through a retained law firm. Expanding our fleet to 72 Rt-1 robots, we&apos;re on the brink of launching our Rt-2 product, focusing on automated dishwashing. With over 1 million app downloads, our user interface design has garnered acclaim. Additionally, we&apos;ve successfully closed a $150 million venture capital funding round, propelling us into an exciting new chapter of growth and innovation.
 
                 </p>
             </div>
