@@ -61,7 +61,7 @@ function Investors () {
             
             <div className='flex flex-col mx-auto items-center justify-center py-24 bg-[#fff]'>
                 <h1 className='font-serif text-5xl text-black'>INVESTOR INQUIRIES</h1>
-                <h1 className='font-serif text-4xl text-black pt-8'>cleanbotmail@gmail.com</h1>
+                <h1 className='font-serif text-4xl text-black pt-8'>investor@getcleanbot.com</h1>
                 
                 <button class="mt-10 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
                 <a className='bg-re' href='cleanbot-pre-seed.pdf' download>Download our pitch deck</a>
