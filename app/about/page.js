@@ -81,10 +81,15 @@ function AboutPage() {
         <div className="w-4/5">
           <h2 className="text-5xl sm:text-8x1 font-bold text-white tracking-tight mb-20 pt-20 text-center">Meet the Minds Behind Our Mission</h2>
           <div className="flex justify-around w-4/5 m-auto">
-            {team.map(function(member, index) {
+            {/* {team.map(function(member, index) {
               if (index < 2) {
                 return <InfoCard key={index} member={member} image={member.photo} avatarW={200} avatarH={200} />}
-            })}
+            })} */}
+            <Image
+              src="/newTeam.png"
+              alt="Picture of leadership"
+              width={1200} height={400}
+            />
           </div>
           <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
           <p className="italic text-2xl text-white text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
