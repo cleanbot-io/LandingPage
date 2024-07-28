@@ -1,18 +1,26 @@
 import BlogPost from "../../components/Blog"
+import Image from "next/image";
+import NavBar from "../../components/NavBar";
+import Footer from "../../components/Footer";
 
 function Blogfunct(){
     return(
         <div className="bg-white">
-         <div className="bg-black">
-           <div className="text-4xl m-2">--CleanBot</div> 
-            <button className="text-2xl bg-lime-500 font style: italic p-2 m-2 ml-2">Blog</button>
+            <NavBar />
+         <div className="bg-black mt-20">
+         <Image
+              src="/newblog.png"
+              alt="Picture of leadership"
+              width={1200} height={400}
+            />
          </div>
          <div className="text-black m-5">
-            <div className="text-center text-xl">Articles Below</div>
+            <div className="text-center text-4xl">Articles Below</div>
             <BlogPost />
            
          
          </div>
+         <Footer />
          
         </div>
         
