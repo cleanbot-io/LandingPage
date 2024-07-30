@@ -53,256 +53,45 @@ function Subscription()
   return (
     <>
       <NavBar />
-      <Image src="/minted2.jpg" alt="generic photo" width={1300} height={100} className='mt-20' />
-      <div className='flex flex-col items-center justify-center py-24 bg-[#fff]'>
-      
-        {/* Main Text */}
-        <div className='flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
-          <h1 className='text-5xl sm:text-8x1 font-bold text-black tracking-tight'>Subscribe to a plan {""}
-          </h1>
+
+        <div className='mt-20'>
+        <Image
+        src="/2.png"
+        alt="living room"
+        width={1500}
+        height={100}
+        className='mb-5'
+      />
+       <Image
+        src="/3.png"
+        alt="living room"
+        width={1500}
+        height={100}
+        className='mb-5'
+      />
+       <Image
+        src="/4.png"
+        alt="living room"
+        width={1500}
+        height={100}
+        className='mb-5'
+      />
+       <Image
+        src="/1.png"
+        alt="living room"
+        width={1500}
+        height={100}
+      />
         </div>
 
-        <div className="flex justify-center items-center pt-5">
-          <button
-            className="bg-black text-white text-custom-blue mt-8 p-2 pl-6 pr-6 rounded-full transition-transform transform hover:scale-105 focus:outline-none focus:ring focus:border-blue-300"
-            onClick={toggleSubscription}
-          >
-            {isMonthly ? 'Switch to Yearly' : 'Switch to Monthly'}
-          </button>
-        </div>
-
-        <div class="flex justify-center items-center pt-20">
-          {/* placeholder cards place here */}
-          
-          {/* Essentials Card */}
-          <Card variant="gradient" className=" rounded-lg w-full bg-blue-800 max-w-[20rem] p-8 mr-4">
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
-      >
-        <Typography
-          variant="small"
-          color="white"
-          className="font-normal uppercase"
-        >
-          Essentials
-        </Typography>
-        <Typography
-          variant="h1"
-          color="white"
-          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
-        >
-          {isMonthly ? '$100/mo' : '$1000/yr'}
-        </Typography>
-      </CardHeader>
-      <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">2 cleanings per month</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">2hr deep clean</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">
-              Sweep / Mop / Vacuum
-            </Typography>
-          </li>
-        </ul>
-      </CardBody>
-      <CardFooter className="mt-12 p-0">
-        <Button
-          size="lg"
-          color="white"
-          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
-          ripple={false}
-          fullWidth={true}
-        >
-          Buy Now
-        </Button>
-      </CardFooter>
-    </Card>
-    {/* Essentials Card */}
-
-
-    {/* Standard Card */}
-    <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] mr-4 p-8">
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
-      >
-        <Typography
-          variant="small"
-          color="white"
-          className="font-normal uppercase"
-        >
-          standard
-        </Typography>
-        <Typography
-          variant="h1"
-          color="white"
-          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
-        >
-          {isMonthly ? '$180/mo' : '$2160/yr'}
-        </Typography>
-      </CardHeader>
-      <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">3 cleanings per month</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">2hr deep clean</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">
-              Sweep / Mop / Vacuum
-            </Typography>
-          </li>
-        </ul>
-      </CardBody>
-      <CardFooter className="mt-12 p-0">
-        <Button
-          size="lg"
-          color="white"
-          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
-          ripple={false}
-          fullWidth={true}
-        >
-          Buy Now
-        </Button>
-      </CardFooter>
-    </Card>
-    {/* Standard Card */}
-
-
-    {/* Premium Card */}
-    <Card variant="gradient" className="w-full rounded-lg bg-blue-800 max-w-[20rem] p-8">
-      <CardHeader
-        floated={false}
-        shadow={false}
-        color="transparent"
-        className="m-0 mb-8 rounded-none border-b border-white/10 pb-8 text-center"
-      >
-        <Typography
-          variant="small"
-          color="white"
-          className="font-normal uppercase"
-        >
-          Premium
-        </Typography>
-        <Typography
-          variant="h1"
-          color="white"
-          className="mt-6 flex justify-center gap-1 text-5xl font-normal"
-        >
-          {isMonthly ? '$240/mo' : '$2880/yr'}
-        </Typography>
-      </CardHeader>
-      <CardBody className="p-0">
-        <ul className="flex flex-col gap-4">
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">1 clean per week</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">2hr deep clean</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Bedroom & Bath</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">Kitchen & Living-room</Typography>
-          </li>
-          <li className="flex items-center gap-4">
-            <span className="rounded-full border border-white/20 bg-white/20 p-1">
-              <CheckIcon />
-            </span>
-            <Typography className="font-normal text-white">
-              Sweep / Mop / Vacuum
-            </Typography>
-          </li>
-        </ul>
-      </CardBody>
-      <CardFooter className="mt-12 p-0">
-        <Button
-          size="lg"
-          color="white"
-          className="hover:scale-[1.02] focus:scale-[1.02] active:scale-100"
-          ripple={false}
-          fullWidth={true}
-        >
-          Buy Now
-        </Button>
-      </CardFooter>
-    </Card>
-    {/* Premium Card */}
-
-          {/* end of cards */}
-        </div>
-
-        <h1 className='text-5xl pt-20 sm:text-8x1 font-bold text-black tracking-tight'>Additional {""}
-          <span className='bg-gradient-to-r from-[#5AC69F] to-[#3eb489] text-transparent bg-clip-text'>
+        <h1 className='text-5xl pt-20 pl-20 sm:text-8x1 font-bold dark:text-white text-black tracking-tight'>Additional {""}
+        <span className='bg-gradient-to-r from-[#5AC69F] to-[#3eb489] text-transparent bg-clip-text'>
             add-ons
           </span>
+          <span className='bg-gradient-to-r from-[#0EC998] to-[#033024] text-transparent bg-clip-text'>
             +
+          </span>
+          
         </h1>
 
         <div class="flex space-x-5 pt-20 mb-10">
@@ -335,20 +124,25 @@ function Subscription()
             <Link href="/about">Learn more</Link>
           </div>
         </div>
-        <PremiumTier />
-        <StandardTier />
-        <BasicTier />
 
-        <div className='mt-10 flex flex-col items-center justify-center py-20'>
-          <Image
-            src="/cb-sub.png"
-            alt="subscription img"
-            width={300}
-            height={100}
-            className='mt-20 mb-10'
-          />
-        </div>
-      </div>
+        <Image
+        src="/cleanings.png"
+        alt="all rooms covered"
+        width={1500}
+        height={100}
+      />
+
+<h1 className='flex mb-5 mt-5 text-4xl justify-center'>Order a turndown service and get a free desert on us</h1>
+     <div className='flex justify-center'>
+    
+     <Image
+        src="/cookie.png"
+        alt="all rooms covered"
+        width={700}
+        height={100}
+      />
+     </div>
+
       <Footer />
     </>
   )
