@@ -2,9 +2,9 @@ import { useState } from 'react';
 
 function FrequentQuestions() {
     const [faqItems, setFaqItems] = useState([
-        { question: "How heavy is this robot?", answer: "Answer 1", showAnswer: false },
-        { question: "Requirements for housekeepers?", answer: "Answer 2", showAnswer: false },
-        { question: "Do we really get tips?", answer: "Answer 3", showAnswer: false },
+        { question: "How heavy is this robot?", answer: "44 pounds", showAnswer: false },
+        { question: "Requirements for housekeepers?", answer: "Drivers license, Social security card", showAnswer: false },
+        { question: "Do we really get tips?", answer: "Yep, and we ask the customer after every clean, and we take no cut out of that, all yours", showAnswer: false },
         { question: "Report inappropriate customers", answer: "Absolutely report them, we need to keep track of the bad clients, and once they have gotten a few bad marks by another cleaner we terminate access to our service, we take this serious", showAnswer: false },
 
     ]);
