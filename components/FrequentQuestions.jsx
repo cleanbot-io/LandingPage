@@ -22,7 +22,7 @@ function FrequentQuestions() {
     return (
         <div className="bg-white justify-center items-center pt-10">
             <div className="text-center">
-                <h1 className="font-mono text-4xl font-bold tracking-tight">
+                <h1 className="font-mono text-4xl dark:text-black font-bold tracking-tight">
                     Your questions, answered
                 </h1>
             </div>
@@ -30,7 +30,7 @@ function FrequentQuestions() {
             <div className="pt-10 w-full max-w-[50rem] mx-auto">
                 {faqItems.map((item, index) => (
                     <div key={index} className="py-4">
-                        <div className="flex items-start">
+                        <div className="flex items-start dark:text-black">
                             <div className="font-mono text-xl font-thin">{item.question}</div>
                             <button onClick={() => toggleAnswer(index)} className="ml-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 transform" viewBox="0 0 20 20" fill="currentColor" style={{ transform: getArrowDirection(index) }}>

@@ -21,7 +21,7 @@ function CarouselCard() {
     return (
         <div className="bg-white">
             <div className="text-center mx-auto max-w-[1260px] items-center justify-center pt-20">
-                <h1 className="font-sans font-thin">
+                <h1 className="font-sans dark:text-black font-thin">
                     Mobile app interface examples
                 </h1>
             </div>
