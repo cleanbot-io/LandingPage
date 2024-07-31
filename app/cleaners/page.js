@@ -9,15 +9,22 @@ import FrequentQuestions from '../../components/FrequentQuestions'
 
 function Cleaners()
 {
-  let videoSrc = "/Housekeeping.mp4"
+  let videoSrc = "/Whitegloves.mp4"
   return (
     <>
     <NavBar />
-    <div className="dark justify-center w-full">
-      <div className="relative">
-      
-        {/* Container 1 */}
-        <div className="flex">
+    <div className="dark justify-center w-full mt-20">
+
+   
+     <h1 className='bg-black px-5 py-10 text-5xl sm:text-8x1 font-bold text-white dark:text-white tracking-tight'>Apply to clean {""}
+          <span className='bg-gradient-to-r from-purple-600 to-pink-400 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
+            with Cleanbot
+          </span>
+        </h1>
+
+   
+
+    <div className="flex">  
           <ReactPlayer 
             url={videoSrc}
             playing={true} // Autoplay the video
@@ -29,6 +36,10 @@ function Cleaners()
           <source src={videoSrc} type="video/mp4" />
           
         </div>
+          
+
+        <div className='flex flex-row items-center justify-around bg-white dark:bg-black py-10'>
+
         <Image
             src="/ourcard.png"
             height={300}
@@ -36,6 +47,12 @@ function Cleaners()
             alt='housekeeping card'
             className='z-1'
           />
+
+        <p className='text-2xl pt-10 font-serif dark:text-white'>Select your own availability, be your own boss.</p>
+        </div>
+
+        {/* Container 1 */}
+      
 
 
         {/* Container 2 */}
@@ -61,11 +78,28 @@ function Cleaners()
               <p>Glass shower doors</p>
             </div>
           </div>
+
+          <Image
+            src="/daythemecleaner.png"
+            width="1000"
+            height="100"
+            alt="day theme"
+            className='block dark:hidden'
+          />
+          <Image
+            src="/nightthemecleaner.png"
+            width="1000"
+            height="100"
+            alt="night theme"
+            className='hidden dark:block'
+          />
         </div>
+
       </div>
+
+
       <CarouselCard />
       <FrequentQuestions />
-    </div>
     <Footer />
     </>
   )
