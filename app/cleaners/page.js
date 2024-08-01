@@ -9,7 +9,7 @@ import FrequentQuestions from '../../components/FrequentQuestions'
 
 function Cleaners()
 {
-  let videoSrc = "/Whitegloves.mp4"
+  let videoSrc = "/Grandopen.mp4"
   return (
     <>
     <NavBar />
@@ -38,18 +38,18 @@ function Cleaners()
         </div>
           
 
-        <div className='flex flex-row items-center justify-around bg-white dark:bg-black py-10'>
-
-        <Image
-            src="/ourcard.png"
-            height={300}
-            width={300}
-            alt='housekeeping card'
-            className='z-1'
-          />
-
-        <p className='text-2xl pt-10 font-serif dark:text-white'>Select your own availability, be your own boss.</p>
-        </div>
+        <div className='flex flex-col md:flex-row items-center justify-around bg-white dark:bg-black py-10'>
+  <Image
+    src="/ourcard.png"
+    height={300}
+    width={300}
+    alt='housekeeping card'
+    className='z-1'
+  />
+  <p className='text-2xl md:text-center font-serif dark:text-white md:ml-4 pl-5 pt-5'>
+    Select your own availability, be your own boss.
+  </p>
+</div>
 
         {/* Container 1 */}
       
@@ -77,6 +77,12 @@ function Cleaners()
               <p>Scrub moldy surfaces</p>
               <p>Glass shower doors</p>
             </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 mt-20 mb-20">
+          <h3 className='text-3xl text-center sm:text-4xl lg:text-5xl ui-sans-serif mt-4 sm:mt-6 lg:mt-0'>
+            We are hiring housekeepers in the San Francisco Area
+          </h3>
           </div>
 
           <Image
