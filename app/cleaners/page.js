@@ -30,6 +30,7 @@ function Cleaners()
             playing={true} // Autoplay the video
             controls={false} // Hide controls
             muted={true} // Mute the video
+            loop={true}
             width="100%"
             height="100%"
           />
