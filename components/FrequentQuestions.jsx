@@ -20,7 +20,7 @@ function FrequentQuestions() {
     };
 
     return (
-        <div className="bg-white justify-center items-center pt-10">
+        <div className="bg-white justify-center items-center pt-10 px-10">
             <div className="text-center">
                 <h1 className="font-mono text-4xl dark:text-black font-bold tracking-tight">
                     Your questions, answered
