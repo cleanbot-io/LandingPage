@@ -10,10 +10,10 @@ function InfoCard({member, image, avatarW, avatarH }) {
                 alt="avatar"
                 width={avatarW}
                 height={avatarH}
-                className='mb-3'
+                className='my-10 mx-10'
             />
-            <p className='text-xl text-white'>{member.name}</p>
-            <p className='italic text-white'>{member.position}</p>
+            <p className='text-xl text-white mx-10'>{member.name}</p>
+            <p className='italic text-white mx-5'>{member.position}</p>
         </div>
     )
 }
