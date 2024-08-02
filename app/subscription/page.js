@@ -57,30 +57,64 @@ function Subscription()
         <div className='mt-20'>
         <Image
         src="/2.png"
-        alt="living room"
         width={1500}
         height={100}
-        className='mb-5'
+        alt='desktop view VIP'
+        className='z-1 hidden md:block'
       />
+
+      <Image
+        src="/vipnight.png"
+        height={100}
+        width={1000}
+        alt='mobile VIP'
+        className='z-1 block md:hidden'
+      />
+
        <Image
         src="/3.png"
         alt="living room"
         width={1500}
         height={100}
-        className='mb-5'
+        className='z-1 hidden md:block'
+      />
+
+      <Image
+        src="/premob.png"
+        height={100}
+        width={1000}
+        alt='mobile VIP'
+        className='z-1 block md:hidden'
       />
        <Image
         src="/4.png"
         alt="living room"
         width={1500}
         height={100}
-        className='mb-5'
+        className='z-1 hidden md:block'
+      />
+
+      <Image
+        src="/stanmob.png"
+        height={100}
+        width={1000}
+        alt='mobile VIP'
+        className='z-1 block md:hidden'
       />
        <Image
         src="/1.png"
         alt="living room"
         width={1500}
         height={100}
+        className='z-1 hidden md:block'
+      />
+
+      <Image
+        src="/basmob.png"
+        height={100}
+        width={1000}
+        alt='mobile VIP'
+        className='z-1 block md:hidden'
       />
         </div>
 
@@ -94,36 +128,37 @@ function Subscription()
           
         </h1>
 
-        <div class="flex space-x-5 pt-20 mb-10">
-          <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-            <h2 class="text-2xl text-white dark:bg-slate-800 font-semibold p-5">Fridge</h2>
-            <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$50/month' : '$500/year'}
-            </p>
-            <Link href="/about">Learn more</Link>
-          </div>
-          <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-            <h2 class="text-2xl text-white font-semibold dark:bg-slate-800 p-5">Closet</h2>
-            <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$60/month' : '$600/year'}
-            </p>
-            <Link href="/about">Learn more</Link>
-          </div>
-          <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-            <h2 class="text-2xl text-white font-semibold p-5">Microwave</h2>
-            <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$20/month' : '$200/year'}
-            </p>
-            <Link href="/about">Learn more</Link>
-          </div>
-          <div class="w-2/3 h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl rounded overflow-hidden">
-            <h2 class="text-2xl text-white font-semibold p-5">Laundry</h2>
-            <p className="text-3xl text-white font-semibold mt-4">
-              {isMonthly ? '$30/month' : '$300/year'}
-            </p>
-            <Link href="/about">Learn more</Link>
-          </div>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-20 mb-10 mx-10">
+  <div className="h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl overflow-hidden">
+    <h2 className="text-2xl text-white dark:bg-slate-800 font-semibold p-5">Fridge</h2>
+    <p className="text-3xl text-white font-semibold mt-4">
+      {isMonthly ? '$50/month' : '$500/year'}
+    </p>
+    <Link href="/about">Learn more</Link>
+  </div>
+  <div className="h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl overflow-hidden">
+    <h2 className="text-2xl text-white font-semibold dark:bg-slate-800 p-5">Closet</h2>
+    <p className="text-3xl text-white font-semibold mt-4">
+      {isMonthly ? '$60/month' : '$600/year'}
+    </p>
+    <Link href="/about">Learn more</Link>
+  </div>
+  <div className="h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl overflow-hidden">
+    <h2 className="text-2xl text-white font-semibold p-5">Microwave</h2>
+    <p className="text-3xl text-white font-semibold mt-4">
+      {isMonthly ? '$20/month' : '$200/year'}
+    </p>
+    <Link href="/about">Learn more</Link>
+  </div>
+  <div className="h-46 bg-teal-300 dark:bg-slate-800 p-6 rounded-lg drop-shadow-xl overflow-hidden">
+    <h2 className="text-2xl text-white font-semibold p-5">Laundry</h2>
+    <p className="text-3xl text-white font-semibold mt-4">
+      {isMonthly ? '$30/month' : '$300/year'}
+    </p>
+    <Link href="/about">Learn more</Link>
+  </div>
+</div>
+
 
         <Image
         src="/cleanings.png"
@@ -132,7 +167,7 @@ function Subscription()
         height={100}
       />
 
-<h1 className='flex mb-5 mt-5 text-4xl justify-center'>Order a turndown service and get a free desert on us</h1>
+<h1 className='flex my-20 px-10 text-4xl justify-center'>Order a turndown service and get a free desert on us</h1>
      <div className='flex justify-center'>
     
      <Image

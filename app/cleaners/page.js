@@ -47,7 +47,7 @@ function Cleaners()
     alt='housekeeping card'
     className='z-1'
   />
-  <p className='text-2xl md:text-center font-serif dark:text-white md:ml-4 pl-5 pt-5'>
+  <p className='text-2xl md:text-center font-serif dark:text-white md:ml-4 pl-5 pt-10'>
     Select your own availability, be your own boss.
   </p>
 </div>
