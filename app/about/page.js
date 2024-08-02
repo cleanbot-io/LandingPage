@@ -85,20 +85,65 @@ function AboutPage() {
               if (index < 2) {
                 return <InfoCard key={index} member={member} image={member.photo} avatarW={200} avatarH={200} />}
             })} */}
-            <Image
-              src="/newTeam.png"
-              alt="Picture of leadership"
-              width={1200} height={400}
-            />
+  
+  <div>
+  {/* Desktop Image */}
+  <Image
+    src="/newTeam.png"
+    alt="living room"
+    width={1500}
+    height={100}
+    className='z-1 hidden md:block'
+  />
+
+  {/* Mobile Images */}
+  <div className='block md:hidden'>
+    <Image
+      src="/squad1.png"
+      height={100}
+      width={1000}
+      alt='mobile VIP'
+      className='z-1'
+    />
+    <Image
+      src="/squad2.png"
+      height={100}
+      width={1000}
+      alt='mobile VIP'
+      className='z-1'
+    />
+    <Image
+      src="/squad3.png"
+      height={100}
+      width={1000}
+      alt='mobile VIP'
+      className='z-1'
+    />
+  </div>
+</div>
+
+
           </div>
-          <h3 className="text-4xl sm:text-8x1 font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
-          <p className="italic text-2xl text-white text-center">&quot;The faces behind the code - our intern contributors&quot; </p>
-          <div className="flex p-10 justify-around m-auto">
-            {team.map(function(member, index) {
-              if (index > 1) {
-                return <InfoCard key={index} member={member} image={member.photo} avatarW={100} avatarH={100}/>}
-            })}
-          </div>
+          <h3 className="text-4xl sm:text-8xl font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
+<p className="italic text-2xl text-white text-center">&quot;The faces behind the code - our intern contributors&quot;</p>
+<div className="flex flex-col md:flex-row p-10 justify-around mx-20">
+  {team.map((member, index) => {
+    if (index > 1) {
+      return (
+        <InfoCard
+          key={index}
+          member={member}
+          image={member.photo}
+          avatarW={100}
+          avatarH={100}
+          className="mb-10 md:mb-0"
+        />
+      );
+    }
+    return null;
+  })}
+</div>
+
         </div>
         {/* place team info here */}
 
@@ -126,7 +171,7 @@ function AboutPage() {
             <Image
               src="/lilbot.png"
               alt="Picture of robot"
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10"
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 pt-40 z-10"
               width={600} height={100}
             />
           </div>
