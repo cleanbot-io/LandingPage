@@ -101,21 +101,21 @@ function AboutPage() {
     <Image
       src="/squad1.png"
       height={100}
-      width={1000}
+      width={1500}
       alt='mobile VIP'
       className='z-1'
     />
     <Image
       src="/squad2.png"
       height={100}
-      width={1000}
+      width={1500}
       alt='mobile VIP'
       className='z-1'
     />
     <Image
       src="/squad3.png"
       height={100}
-      width={1000}
+      width={1500}
       alt='mobile VIP'
       className='z-1'
     />
