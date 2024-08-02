@@ -89,7 +89,21 @@ function AboutPage() {
   <div>
   {/* Desktop Image */}
   <Image
-    src="/newTeam.png"
+    src="/desksquad1.png"
+    alt="living room"
+    width={1500}
+    height={100}
+    className='z-1 hidden md:block'
+  />
+  <Image
+    src="/desksquad2.png"
+    alt="living room"
+    width={1500}
+    height={100}
+    className='z-1 hidden md:block'
+  />
+  <Image
+    src="/desksquad3.png"
     alt="living room"
     width={1500}
     height={100}
@@ -101,21 +115,21 @@ function AboutPage() {
     <Image
       src="/squad1.png"
       height={100}
-      width={1500}
+      width={1200}
       alt='mobile VIP'
       className='z-1'
     />
     <Image
       src="/squad2.png"
       height={100}
-      width={1500}
+      width={1200}
       alt='mobile VIP'
       className='z-1'
     />
     <Image
       src="/squad3.png"
       height={100}
-      width={1500}
+      width={1200}
       alt='mobile VIP'
       className='z-1'
     />
@@ -124,7 +138,7 @@ function AboutPage() {
 
 
           </div>
-          <h3 className="text-4xl sm:text-8xl font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
+          <h3 className="text-2xl sm:text-4xl font-bold text-white tracking-tight mb-4 pt-20 text-center">Coding Champions</h3>
 <p className="italic text-2xl text-white text-center">&quot;The faces behind the code - our intern contributors&quot;</p>
 <div className="flex flex-col md:flex-row p-10 justify-around mx-20">
   {team.map((member, index) => {
