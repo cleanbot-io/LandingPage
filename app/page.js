@@ -36,11 +36,11 @@ export default function Home() {
             priority
           />
           <h3 className='text-3xl text-center sm:text-4xl lg:text-5xl ui-sans-serif mt-4 sm:mt-6 lg:mt-0'>
-            On-demand housekeeping with the aid of Robots
+            Experience Blazing fast On-demand Housekeeping with Our Robot-Assisted Housekeepers
           </h3>
         </div>
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
-          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Subscribe to our service and enjoy a clean apartment without lifting a finger. Download our app today and delegate your house chores.</h3>
+          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Enjoy a spotless home in record time. Our professional housekeepers aided by advanced robotics, deliver exceptional results.</h3>
         </div>
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
