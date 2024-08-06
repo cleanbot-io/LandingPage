@@ -90,21 +90,21 @@ function AboutPage() {
   {/* Desktop Image */}
   <Image
     src="/desksquad1.png"
-    alt="living room"
+    alt="desktop Team image 1"
     width={1500}
     height={100}
     className='z-1 hidden md:block'
   />
   <Image
     src="/desksquad2.png"
-    alt="living room"
+    alt="desktop Team image 2"
     width={1500}
     height={100}
     className='z-1 hidden md:block'
   />
   <Image
     src="/desksquad3.png"
-    alt="living room"
+    alt="desktop Team image 3"
     width={1500}
     height={100}
     className='z-1 hidden md:block'
@@ -116,21 +116,21 @@ function AboutPage() {
       src="/squad1.png"
       height={100}
       width={1200}
-      alt='mobile VIP'
+      alt='team image'
       className='z-1'
     />
     <Image
       src="/squad2.png"
       height={100}
       width={1200}
-      alt='mobile VIP'
+      alt='team image 2'
       className='z-1'
     />
     <Image
       src="/squad3.png"
       height={100}
       width={1200}
-      alt='mobile VIP'
+      alt='team image 3'
       className='z-1'
     />
   </div>

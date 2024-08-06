@@ -73,7 +73,7 @@ function Subscription()
 
        <Image
         src="/3.png"
-        alt="living room"
+        alt="desktop premium subscription"
         width={1500}
         height={100}
         className='z-1 hidden md:block'
@@ -83,12 +83,12 @@ function Subscription()
         src="/premob.png"
         height={100}
         width={1000}
-        alt='mobile VIP'
+        alt='mobile premium subscription'
         className='z-1 block md:hidden'
       />
        <Image
         src="/4.png"
-        alt="living room"
+        alt="desktop Standard subscription"
         width={1500}
         height={100}
         className='z-1 hidden md:block'
@@ -98,12 +98,12 @@ function Subscription()
         src="/stanmob.png"
         height={100}
         width={1000}
-        alt='mobile VIP'
+        alt='mobile Standard subscription'
         className='z-1 block md:hidden'
       />
        <Image
         src="/1.png"
-        alt="living room"
+        alt="Desktop basic subscription"
         width={1500}
         height={100}
         className='z-1 hidden md:block'
@@ -113,7 +113,7 @@ function Subscription()
         src="/basmob.png"
         height={100}
         width={1000}
-        alt='mobile VIP'
+        alt='mobile basic subscription'
         className='z-1 block md:hidden'
       />
         </div>
