@@ -23,13 +23,14 @@ function NavBar()
                             onClick={() => setNavbar(!navbar)}
                             >
                             {navbar ? (
-                                <Image src="/close.png" width={30} height={30} alt="logo" />
+                                <Image src="/close.png" width={30} height={30} alt="close icon" />
                             ) : (
                                 <Image
                                 src="/hamburger_icon.png"
                                 width={30}
                                 height={30}
                                 className="focus:border-none active:border-none"
+                                alt="hamburger icon"
                                 />
                             )}
                             </button>
