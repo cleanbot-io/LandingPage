@@ -10,15 +10,6 @@ export default function Home() {
   return (
     <Suspense fallback={<Loading />}>
       <NavBar />
-        <Image
-          alt='Bathtub robot'
-          src='/CB-tub.gif'
-          priority={true}
-          width={0}
-          height={0}
-          sizes='100vw'
-          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
-        />
       <Image
         src="/Clean.png"
         alt="living room"
@@ -36,11 +27,11 @@ export default function Home() {
             priority
           />
           <h3 className='text-3xl text-center sm:text-4xl lg:text-5xl ui-sans-serif mt-4 sm:mt-6 lg:mt-0'>
-            Experience Blazing fast On-demand Housekeeping with Our Robot-Assisted Housekeepers
+            On-demand Housekeeping
           </h3>
         </div>
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
-          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Enjoy a spotless home in record time. Our professional housekeepers aided by advanced robotics, deliver exceptional results.</h3>
+          <h3 className='text-2xl from-[#7575FF] to-purple-600'>Enjoy a spotless home in record time. Our professional housekeepers deliver exceptional results.</h3>
         </div>
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
@@ -81,7 +72,7 @@ export default function Home() {
 
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight'>
-          Cleanbot reimburses you up to $2M for any damage to your home/apartment/loft, so take comfort in knowing you are protected
+          Cleanbot reimburses you up to $500k for any damage to your apartment, so take comfort in knowing you are protected
         </h1>
       </div>
 
@@ -109,56 +100,7 @@ export default function Home() {
         </div>
 
        
-        <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
-        <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our 1st generation flagship {""}
-          <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
-            cleaning robot
-          </span>
-        </h1>
-      </div>
-
-        <div className='items-center justify-center'>
-
-          <Image
-            src="/rt-1-intro.png"
-            alt="tubbot intro"
-            width="1500"
-            height="300"
-            className="rounded-lg self-center mx-auto mb-10"
-          />
-
-    <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>The world&apos;s first robot to automate shower and bathtub cleaning
-    </h1>
-
-          <Image
-            src="/rt1-features.png"
-            alt="tubbot features"
-            width="1500"
-            height="300"
-            className="rounded-lg self-center mx-auto mb-10"
-          />
-
-<h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight my-20 ml-20'>Features</h1>
-
-<div className='my-20'>
-<div className="mb-30 mx-auto h-lg p-2 bg-opacity-20 bg-black-200 dark:bg-white backdrop-blur-md backdrop-filter rounded-lg shadow-lg max-w-lg max-h-100">
-              <h2 className="text-xl sm:text-2xl z-50 font-bold mb-2 text-black">Rt-1: A Bath & Shower cleanbot</h2>
-              <p className="text-black">Heavy duty performance for all Shower Wall Panel and Tile types including Stone | Marble | Glass | Porcelain | Fiberglass as well as the Shower Pan & Bases</p>
-            </div>
-</div>
-
-
-
-          <Image
-            src="/rt-1-proto.png"
-            alt="tubbot in shower"
-            width="700"
-            height="300"
-            className="rounded-lg self-center mx-auto"
-          />
         
-          
-        </div>
 
           {/* end */}
           
