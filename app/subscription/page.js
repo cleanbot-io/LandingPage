@@ -53,9 +53,219 @@ function Subscription()
   return (
     <>
       <NavBar />
+        <div className='min-h-screen bg-white'>
 
-        <div className='mt-20'>
-        <Image
+          <h1 className='text-4xl px-10 mt-20 mb-10'>Explore our housekeeping subscriptions.</h1>
+
+          <div className="flex overflow-x-auto space-x-6 mx-5 py-10 px-4 sm:px-0 scrollbar-hide">
+
+          {/* VIP Card */}
+          <div>
+            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <Image
+              src="/vip-button.png"
+              width={500}
+              height={100}
+              alt='desktop view VIP'
+              className='z-1 md:block'
+            />
+            <p className="mt-5">The ultimate housekeeping experience</p>
+
+              <p className="text-gray-600 mt-5 mb-5">
+                Our VIP service delivers daily, two-hour cleanings by our Top-rated housekeepers. Each visit is customized to your preference ensuring your space stays pristine with minimal effort. This is the perfect solution for those who want hotel-style service in the confort of their own homes
+              </p>
+
+              <button className="bg-black text-white px-4 py-2 rounded-3xl  w-full hover:bg-blue-600">
+                Learn More
+              </button>
+            </div>
+
+            <ul className="space-y-2 mb-10 md:mb-0 mt-5">
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+            </li>
+          </ul>
+          </div>
+
+        {/* Premium Card */}
+        <div>
+            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <Image
+              src="/Premium-button.png"
+              width={500}
+              height={100}
+              alt='VIP header'
+              className='z-1 md:block'
+            />
+
+              <p className="mt-5">A powerful housekeeping experience</p>
+
+              <p className="text-gray-600 mt-5 mb-10">
+                With the Premium tier enjoy three, two-hour cleanings per week. Ideal for those looking to maintain a spotless home without the hassle. Easily set your prefered schedule in the app, and let our team take care of the rest.
+              </p>
+
+              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
+                Learn More
+              </button>
+            </div>
+
+            <ul className="space-y-2 mb-10 md:mb-0 mt-5">
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+          </ul>
+          </div>
+
+          {/* Standard Card */}
+          <div>
+            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <Image
+              src="/Standard-button.png"
+              width={500}
+              height={100}
+              alt='standard header'
+              className='z-1 md:block'
+            />
+
+              <p className="mt-5">Experience the unrivaled Luxury of Cleanbot</p>
+
+              <p className="text-gray-600 mt-5 mb-20">
+                The gold standard of housekeeping this option includeds two 2-hour cleanings per week. In the app tailor the service to your homes need. Meeting your cleaning expectations
+              </p>
+
+              <button className="bg-black text-white mt-5 px-4 py-2 rounded-3xl w-full hover:bg-blue-600">
+                Learn More
+              </button>
+            </div>
+
+            <ul className="space-y-2 mb-10 md:mb-0 mt-5">
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+            </li>
+          </ul>
+          </div>
+
+        {/* Basic Card */}
+        <div>
+            <div className="min-w-[250px] h-3/5 flex-1 h-full bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <Image
+              src="/Basic-button.png"
+              width={500}
+              height={100}
+              alt='basic header'
+              className='z-1 md:block'
+            />
+
+             <p className="mt-5">In Our simpliest form, yet mighty</p>
+
+              <p className="text-gray-600 mt-5 mb-10">
+                Come exprience Cleanbot in its simpliest form, tailor your schedule within the app. Our housekeeper will deliver the same housekeeping exprience you come to know at hotels, but its in the comfort of your own apartment.
+              </p>
+
+              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-slate-700 hover:text-black">
+                Learn More
+              </button>
+            </div>
+
+            <ul className="space-y-2 mb-10 md:mb-0 mt-5">
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+            </li>
+            <li className="flex items-center">
+              <span className="text-green-500">✓</span>
+              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+            </li>
+          </ul>
+          </div>
+</div>
+
+
+          
+        {/* <Image
         src="/2.png"
         width={1500}
         height={100}
@@ -77,9 +287,9 @@ function Subscription()
         width={1500}
         height={100}
         className='z-1 hidden md:block'
-      />
+      /> */}
 
-      <Image
+      {/* <Image
         src="/premob.png"
         height={100}
         width={1000}
@@ -115,7 +325,7 @@ function Subscription()
         width={1000}
         alt='mobile basic subscription'
         className='z-1 block md:hidden'
-      />
+      /> */}
         </div>
 
         <h1 className='text-5xl pt-20 pl-20 sm:text-8x1 font-bold dark:text-white text-black tracking-tight'>Additional {""}

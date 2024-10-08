@@ -25,6 +25,7 @@
     "react-swipeable-views": "^0.14.0",
     "react-three-fiber": "^6.0.13",
     "react-toastify": "^10.0.5",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "tailwindcss": "3.3.3",
     "three": "^0.157.0"
   },
