@@ -21,6 +21,14 @@ import {
 
 // const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
+const CustomLink = ({ href, children }) => {
+  return (
+    <Link href={href}>
+      <a>{children}</a>
+    </Link>
+  );
+};
+
 function CheckIcon() {
   return (
     <svg
@@ -75,9 +83,11 @@ function Subscription()
                 Our VIP service delivers daily, two-hour cleanings by our Top-rated housekeepers. Each visit is customized to your preference ensuring your space stays pristine with minimal effort. This is the perfect solution for those who want hotel-style service in the confort of their own homes
               </p>
 
-              <button className="bg-black text-white px-4 py-2 rounded-3xl  w-full hover:bg-blue-600">
+              <Link href="/vipSub">
+              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
                 Learn More
               </button>
+              </Link>
             </div>
 
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
@@ -133,9 +143,11 @@ function Subscription()
                 With the Premium tier enjoy three, two-hour cleanings per week. Ideal for those looking to maintain a spotless home without the hassle. Easily set your prefered schedule in the app, and let our team take care of the rest.
               </p>
 
+              <Link href="/premiumSub">
               <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
                 Learn More
               </button>
+              </Link>
             </div>
 
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
@@ -187,9 +199,11 @@ function Subscription()
                 The gold standard of housekeeping this option includeds two 2-hour cleanings per week. In the app tailor the service to your homes need. Meeting your cleaning expectations
               </p>
 
-              <button className="bg-black text-white mt-5 px-4 py-2 rounded-3xl w-full hover:bg-blue-600">
+              <Link href="/standardSub">
+              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
                 Learn More
               </button>
+              </Link>
             </div>
 
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
@@ -218,24 +232,28 @@ function Subscription()
 
         {/* Basic Card */}
         <div>
-            <div className="min-w-[250px] h-3/5 flex-1 h-full bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <Image
               src="/Basic-button.png"
               width={500}
               height={100}
-              alt='basic header'
+              alt='standard header'
               className='z-1 md:block'
             />
 
-             <p className="mt-5">In Our simpliest form, yet mighty</p>
+              <p className="mt-5">In our simpliest form, yet mighty</p>
 
-              <p className="text-gray-600 mt-5 mb-10">
-                Come exprience Cleanbot in its simpliest form, tailor your schedule within the app. Our housekeeper will deliver the same housekeeping exprience you come to know at hotels, but its in the comfort of your own apartment.
+              <p className="text-gray-600 mt-5 mb-20">
+                Experience Cleanbot in its simpliest form, leave your chores to our cleaners, we come once a week for 2-hours.
+                Schedule within the app and see the cleaner en-route to
+                your apartment. 
               </p>
 
-              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-slate-700 hover:text-black">
+              <Link href="/basicSub">
+              <button className="bg-black text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
                 Learn More
               </button>
+              </Link>
             </div>
 
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
@@ -261,6 +279,7 @@ function Subscription()
             </li>
           </ul>
           </div>
+
 </div>
 
 
