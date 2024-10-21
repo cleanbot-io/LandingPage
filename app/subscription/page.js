@@ -69,7 +69,7 @@ function Subscription()
 
           {/* VIP Card */}
           <div>
-            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <div className="min-w-[250px] h-2/2 w-48 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <Image
               src="/vip-button.png"
               width={500}
@@ -80,7 +80,7 @@ function Subscription()
             <p className="mt-5">The ultimate housekeeping experience</p>
 
               <p className="text-gray-600 mt-5 mb-5">
-                Our VIP service delivers daily, two-hour cleanings by our Top-rated housekeepers. Each visit is customized to your preference ensuring your space stays pristine with minimal effort. This is the perfect solution for those who want hotel-style service in the confort of their own homes
+                Our VIP service delivers daily, two-hour cleanings by our Top-rated housekeepers. Each visit is customized to your preference ensuring your space stays pristine with minimal effort.
               </p>
 
               <Link href="/vipSub">
@@ -93,42 +93,38 @@ function Subscription()
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Receive Daily housekeeping</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">2-hour cleaning session</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Closet Organization</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Refrigerator cleaned <br></br> & organized</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Oven & Microwave <br></br> cleaned</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Dishes cleaned & <br></br> Trash taken out</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
-            </li>
-            <li className="flex items-center">
-              <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Bedroom & Bathroom</p>
             </li>
           </ul>
           </div>
 
-        {/* Premium Card */}
-        <div>
-            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+          {/* Premium Card */}
+          <div>
+            <div className="min-w-[250px] w-48 h-2/2 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <Image
               src="/Premium-button.png"
               width={500}
@@ -139,8 +135,8 @@ function Subscription()
 
               <p className="mt-5">A powerful housekeeping experience</p>
 
-              <p className="text-gray-600 mt-5 mb-10">
-                With the Premium tier enjoy three, two-hour cleanings per week. Ideal for those looking to maintain a spotless home without the hassle. Easily set your prefered schedule in the app, and let our team take care of the rest.
+              <p className="text-gray-600 mt-5 mb-5">
+                With the Premium tier enjoy three, two-hour cleanings per week. Ideal for those looking to maintain a spotless home without the hassle. Easily set your prefered schedule in the app.
               </p>
 
               <Link href="/premiumSub">
@@ -153,38 +149,34 @@ function Subscription()
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Receive housekeeping <br></br> three times a week</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">2-hour cleaning session</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Closet Organization</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Refrigerator cleaned & organized</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Oven & Microwave cleaned</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
-            </li>
-            <li className="flex items-center">
-              <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Dishes cleaned & Trash taken out</p>
             </li>
           </ul>
           </div>
 
           {/* Standard Card */}
           <div>
-            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+            <div className="min-w-[250px] w-48 h-2/2 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <Image
               src="/Standard-button.png"
               width={500}
@@ -195,7 +187,7 @@ function Subscription()
 
               <p className="mt-5">Experience the unrivaled Luxury of Cleanbot</p>
 
-              <p className="text-gray-600 mt-5 mb-20">
+              <p className="text-gray-600 mt-5 mb-5">
                 The gold standard of housekeeping this option includeds two 2-hour cleanings per week. In the app tailor the service to your homes need. Meeting your cleaning expectations
               </p>
 
@@ -209,30 +201,30 @@ function Subscription()
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Receive housekeeping <br></br> twice a week</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">2-hour cleaning session</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Refrigerator cleaned & organized</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">All rooms are dusted, <br></br>vacuumed, and tidied</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Dishes cleaned & Trash taken out</p>
             </li>
           </ul>
           </div>
 
-        {/* Basic Card */}
-        <div>
-            <div className="min-w-[250px] h-3/5 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
+          {/* Basic Card */}
+          <div>
+            <div className="min-w-[250px] w-48 h-2/2 flex-1 bg-violet-200 shadow-lg rounded-lg p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">
             <Image
               src="/Basic-button.png"
               width={500}
@@ -243,7 +235,7 @@ function Subscription()
 
               <p className="mt-5">In our simpliest form, yet mighty</p>
 
-              <p className="text-gray-600 mt-5 mb-20">
+              <p className="text-gray-600 mt-5 mb-5">
                 Experience Cleanbot in its simpliest form, leave your chores to our cleaners, we come once a week for 2-hours.
                 Schedule within the app and see the cleaner en-route to
                 your apartment. 
@@ -259,23 +251,19 @@ function Subscription()
             <ul className="space-y-2 mb-10 md:mb-0 mt-5">
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Extended cleaning services</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Receive housekeeping <br></br> once a week</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Bi-weekly deep cleaning</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">2-hour cleaning session</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Dedicated account manager</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">Dishes cleaned & <br></br> trash taken out</p>
             </li>
             <li className="flex items-center">
               <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Discount on emergency services</p>
-            </li>
-            <li className="flex items-center">
-              <span className="text-green-500">✓</span>
-              <p className="ml-2 text-gray-600 dark:text-gray-300">Free seasonal clean-ups</p>
+              <p className="ml-2 text-gray-600 dark:text-gray-300 mt-5 mb-5">All rooms are dusted, <br></br> vacuumed, and tidied </p>
             </li>
           </ul>
           </div>
