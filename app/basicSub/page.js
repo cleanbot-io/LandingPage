@@ -9,7 +9,7 @@ function BasicSubscription () {
             <NavBar />
             <div className='mb-20 mt-40 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-5xl sm:text-8x1 font-bold text-black dark:text-white tracking-tight'>Our  {""}
-          <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
+          <span className='bg-gradient-to-r from-yellow-400 to-amber-200 dark:from-amber-400 dark:to-amber-200 text-transparent bg-clip-text'>
             Basic
           </span>
           <br></br>
