@@ -98,11 +98,17 @@ export default function Home() {
             alt="Mobile apps 6"
           />
         </div>
-
-       
-        
-
           {/* end */}
+
+          <div className='bg-orange-200 py-5 px-10'>
+            <p className='text-4xl mt-10 mb-10'>Keeping you clean during the holidays</p>
+          <Image
+            src="/batz.jpg"
+            alt="holidays image"
+            width={700}
+            height={300}
+          />
+          </div>
           
 
         <div className='mt-36 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>

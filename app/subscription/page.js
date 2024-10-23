@@ -63,7 +63,7 @@ function Subscription()
       <NavBar />
         <div className='min-h-screen bg-white'>
 
-          <h1 className='text-4xl px-10 mt-20 mb-10'>Explore our housekeeping subscriptions.</h1>
+          <h1 className='text-4xl px-10 py-20 mt-20 mb-10'>Explore our housekeeping subscriptions.</h1>
 
           <div className="flex overflow-x-auto space-x-6 mx-5 py-10 px-4 sm:px-0 scrollbar-hide">
 
