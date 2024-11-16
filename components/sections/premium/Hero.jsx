@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex text-black flex-col justify-center items-center text-center my-10 sm:my-20 lg:my-28 gap-12 sm:gap-16">
+    <div className="flex text-black flex-col justify-center items-center text-center my-20 sm:my-20 lg:my-28 gap-12 sm:gap-16">
       {/* Title Section */}
       <div>
         <p className="text-2xl sm:text-4xl">
