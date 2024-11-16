@@ -3,31 +3,38 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex text-black  flex-col justify-center items-center text-center my-[10%] gap-24">
+    <div className="flex text-black flex-col justify-center items-center text-center my-10 sm:my-20 lg:my-28 gap-12 sm:gap-16">
+      {/* Title Section */}
       <div>
-        <p className="text-4xl">
+        <p className="text-2xl sm:text-4xl">
           Our
-          <span className="ml-2 text-5xl font-bold text-[#F61C1C]">
+          <span className="ml-2 text-3xl sm:text-5xl font-bold text-[#F61C1C]">
             Premium
           </span>{" "}
           <br />
           Subscription
         </p>
       </div>
-      <div className="w-full h-[640px]">
+
+      {/* Image Section */}
+      <div className="w-full max-w-[1200px] mx-auto">
         <Image
-          width={100000}
-          height={100000}
-          alt="image"
+          width={1200}
+          height={640}
+          alt="Premium Subscription"
           objectFit="cover"
           quality={100}
           src="/premium/premiumtier1.png"
-          className="max-w-[1200px] mx-auto h-[641px] rounded-sm"
+          className="w-full h-auto rounded-sm"
         />
       </div>
-      <div className="flex flex-col gap-12 max-w-4xl mx-auto">
-        <p className="text-5xl">The epitome of excellence</p>
-        <p className="text-left text-3xl">
+
+      {/* Description Section */}
+      <div className="flex flex-col gap-8 sm:gap-12 max-w-4xl mx-auto px-4 sm:px-10">
+        <p className="text-3xl sm:text-4xl lg:text-5xl">
+          The epitome of excellence
+        </p>
+        <p className="text-left text-lg sm:text-xl lg:text-2xl leading-relaxed">
           Transform your home into a luxurious retreat with our Premium
           subscription. Experience the serenity of walking into an impeccably
           maintained space, meticulously prepared to hotel standards. From
