@@ -42,7 +42,7 @@ function Cleaners() {
             className="z-1"
           />
           <p className="text-2xl md:text-center font-serif dark:text-white md:ml-4 pl-5 pt-10">
-            Select your own availability, be your own boss.
+            Build a stable career with competitive benefits at the intersection of tech and housekeeping excellence
           </p>
         </div>
 
