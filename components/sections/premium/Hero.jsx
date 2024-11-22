@@ -24,7 +24,7 @@ const Hero = () => {
           alt="Premium Subscription"
           objectFit="cover"
           quality={100}
-          src="/premium/premiumtier1.png"
+          src="/premium/3.png"
           className="w-full h-auto rounded-sm"
         />
       </div>

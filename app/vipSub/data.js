@@ -1,5 +1,13 @@
 export const features = [
     {
+      title: "Butler",
+      headline: "Coming Soon",
+      description:
+        "Your VIP membership includes 2 hours of butler service daily. From dog walks to dry cleaning pickup to grocery shopping and household tasks, your dedicated butler handles what you need, when you need it - no full-time commitment required.",
+      imageUrl: "/vip/FracBut.png",
+      reversed: true,
+    },
+    {
       title: "Closet Organization",
       headline: "Tame your closet space",
       description:

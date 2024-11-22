@@ -25,15 +25,6 @@ function VipSubscription() {
         <p className="text-xl sm:text-3xl text-center">
           Top Features Highlights.
         </p>
-        <Image
-          width={800}
-          height={640}
-          alt="Vip Subscription"
-          objectFit="cover"
-          quality={100}
-          src="/vip/TomBig.png"
-          className="mx-auto"
-        />
       </div>
 
       {/* Section: Features */}
