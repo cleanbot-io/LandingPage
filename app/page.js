@@ -101,14 +101,9 @@ export default function Home() {
         </div>
           {/* end */}
 
-          <div className='bg-orange-200 py-5 px-10'>
-            <p className='text-4xl mt-10 mb-10'>Keeping you clean during the holidays</p>
-          <Image
-            src="/batz.jpg"
-            alt="holidays image"
-            width={700}
-            height={300}
-          />
+          <div className='bg-slate-200 py-5 px-10 mx-auto rounded-full'>
+            <h1 className='text-3xl italic mb-5 font-bold ui-sans-serif'>EARLY ACCESS</h1>
+            <p className='text-1xl font-bold'>Secure your spot: Only 60 early access spots available for Cleanbot&lsquo;s exclusive preview launch</p>
           </div>
           
 
