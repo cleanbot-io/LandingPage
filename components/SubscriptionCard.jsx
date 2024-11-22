@@ -20,7 +20,6 @@ const SubscriptionCard = ({
         alt={`${title} image`}
         className="z-1 md:block"
       />
-      <h3 className="mt-5 font-bold">{title}</h3>
       <p className="text-gray-600 mt-5 mb-5">{description}</p>
       <Link href={linkHref}>
         <button className="bg-black transition-all duration-300 text-white px-4 py-2 rounded-3xl w-full hover:bg-blue-600 mt-5">
