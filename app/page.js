@@ -101,13 +101,13 @@ export default function Home() {
         </div>
           {/* end */}
 
-          <div className='bg-orange-200 py-5 px-10'>
-            <p className='text-4xl mt-10 mb-10'>Keeping you clean during the holidays</p>
+          <div className='py-5'>
+            <p className='text-4xl mt-10 mb-10'>Only 60 early access spots available for Cleanbot exclusive preview launch.</p>
           <Image
-            src="/batz.jpg"
-            alt="holidays image"
-            width={700}
-            height={300}
+            src="/earlyaccess.png"
+            alt="early Access image"
+            width={2500}
+            height={1000}
           />
           </div>
           
