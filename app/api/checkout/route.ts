@@ -1,10 +1,17 @@
 import { NextResponse } from "next/server";
-import stripe from "../../../lib/stripe";
+import stripe from "../../../lib/stripeInstance";
 
-export async function POST(req: Request) {
-  const { title, price } = await req.json();
-
+export async function POST(req) {
   try {
+    const { title, price } = await req.json();
+
+    if (!title || !price || price <= 0) {
+      return NextResponse.json(
+        { error: "Invalid title or price provided" },
+        { status: 400 }
+      );
+    }
+
     const session = await stripe.checkout.sessions.create({
       payment_method_types: ["card"],
       line_items: [
@@ -20,8 +27,8 @@ export async function POST(req: Request) {
         },
       ],
       mode: "payment",
-      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success`,
-      cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/cancel`,
+      success_url: `${process.env.NEXT_PUBLIC_BASE_URL}/success?session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${process.env.NEXT_PUBLIC_BASE_URL}/cancel?session_id={CHECKOUT_SESSION_ID}`,
     });
 
     return NextResponse.json({ url: session.url });

@@ -5,8 +5,9 @@ import Hero from "../../components/sections/premium/Hero";
 import Feature from "../../components/sections/premium/Feature";
 import Service from "../../components/sections/premium/Services";
 import Care from "../../components/sections/premium/Care";
-import SubscriptionCard from "../../components/SubscriptionCard";
+
 import { features, services, cares, subscriptionPlans } from "./data";
+import SubscriptionCard from "./SubCard";
 
 function PremiumSubscription() {
   return (
