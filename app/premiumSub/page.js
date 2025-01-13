@@ -5,9 +5,9 @@ import Hero from "../../components/sections/premium/Hero";
 import Feature from "../../components/sections/premium/Feature";
 import Service from "../../components/sections/premium/Services";
 import Care from "../../components/sections/premium/Care";
-import SubscriptionCard from "../../components/SubscriptionCard";
-import TouchableCarousel from "../../components/Slider";
+
 import { features, services, cares, subscriptionPlans } from "./data";
+import SubscriptionCard from "./SubCard";
 
 function PremiumSubscription() {
   return (
@@ -92,6 +92,7 @@ function PremiumSubscription() {
                 linkHref={plan.linkHref}
                 linkText={plan.linkText}
                 features={plan.features}
+                price={plan.price}
               />
             </div>
           ))}

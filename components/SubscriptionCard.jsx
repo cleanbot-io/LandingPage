@@ -8,8 +8,6 @@ const SubscriptionCard = ({
   imageSrc,
   linkHref,
   linkText,
-  price,
-  features,
 }) => {
   return (
     <div className="min-w-[250px] justify-between cursor-pointer flex flex-col rounded-2xl h-[479px] w-48 flex-1 bg-violet-200 shadow-lg  p-6 hover:shadow-2xl transition-all duration-300 ease-in-out">

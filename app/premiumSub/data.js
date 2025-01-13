@@ -116,6 +116,7 @@ export const subscriptionPlans = [
       "Dishes cleaned & Trash taken out",
       "Bedroom & Bathroom cleaned",
     ],
+    price: 2500,
   },
 
   {
@@ -132,6 +133,7 @@ export const subscriptionPlans = [
       "All rooms are dusted, vacuumed, and tidied",
       "Dishes cleaned & Trash taken out",
     ],
+    price: 800,
   },
   {
     title: "Basic",
@@ -146,5 +148,6 @@ export const subscriptionPlans = [
       "Dishes cleaned & Trash taken out",
       "All rooms are dusted, vacuumed, and tidied",
     ],
+    price: 500,
   },
 ];
