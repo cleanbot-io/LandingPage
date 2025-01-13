@@ -17,14 +17,14 @@ const Card = ({
   const handleCheckout = async () => {
     setLoading(true);
     try {
-      const response = await fetch("/api/checkout", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/checkout`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({ title, price }),
       });
-
+  
       const { url } = await response.json();
       if (url) {
         window.location.href = url;
