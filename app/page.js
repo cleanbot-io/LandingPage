@@ -21,9 +21,9 @@ export default function Home() {
         <div className="my-10 lg:mb-20 flex flex-col lg:flex-row items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] mt-4 sm:mt-8 lg:mt-0 lg:mr-8"
-            src="/lilbot.png"
+            src="/CB_Notification.png"
             alt="tool image"
-            width={700}
+            width={500}
             height={100}
             priority
           />
@@ -32,8 +32,11 @@ export default function Home() {
           </h3>
         </div>
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
-          <h3 className='text-2xl from-[#7575FF] to-purple-600'>The smart solution with intelligent scheduling, trusted by {`SF's`} busiest professionals.</h3>
-        </div>
+  <h3 className="text-2xl from-[#7575FF] to-purple-600">
+    Experience premium housekeeping and personalized Fractional Butler services, seamlessly from our mobile app.
+  </h3>
+</div>
+
         <div className='mt-10 sm:mt-16 lg:mt-40 mb-10 sm:mb-16 lg:mb-20'>
           <Image
             src="/mock.png"
@@ -44,7 +47,7 @@ export default function Home() {
         </div>
         <div className='mb-20 flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center'>
         <h1 className='text-3xl sm:text-5x1 font-bold text-black dark:text-white tracking-tight'>
-          On demand housekeeping with trusted & verified cleaners
+          Our promise of care begins with our people full-time professionals with benefits, trained to deliver exceptional service you can trust.
         </h1>
       </div>
 
@@ -125,7 +128,7 @@ export default function Home() {
         </div>
 
         <div className="mt-20 grid text-center lg:max-w-5xl lg:w-full lg:mb-0">
-          <h3 className='text-2xl'>“Our robots are designed to empower cleaners by working alongside them. That is why we are committed to investing in training and education programs to help workers develop the skills they need to thrive in the automated economy.”</h3>
+        <h3 className="text-2xl">We believe in empowering our housekeepers through training and education, ensuring they develop the skills needed to thrive in their roles and provide exceptional service to your home.</h3>
           <h4>These are not sugar coated words - check out our blog for the plan on this ˃</h4>
         </div>
       </main>

@@ -32,12 +32,13 @@ function RobotPage () {
             <div className='flex flex-col mx-auto items-center pt-18 pb-20 bg-[#fff]'>
                 <div className='w-2/3 text-left'>
                     <h1 className='font-serif text-5xl font-thin text-black'>
-                    RT-1 is our robot designed to tackle {" "}
+                    After our MVP phase we will be looking to integrate a Bathtub & Shower Robot {" "}
                         <span className='bg-gradient-to-r from-purple-600 to-[#7575FF] dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
-                          Bath & Showers{" "}
+                          So we will be seeking a partnership with a Robotics firm, preferably an American one to develop our first Flagship robot {" "}
               <span className='bg-gradient-to-r from-[#7575FF] to-purple-600 dark:from-[#D2042D] dark:to-[#F5554A] text-transparent bg-clip-text'>
               </span>
             </span>
+                This robot will aid our Cleaners. View our blogs for more information.
                     </h1>
                 </div>
                 

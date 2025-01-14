@@ -53,7 +53,7 @@ function AboutPage() {
           </h1>
           <h1>
             <span className="bg-gradient-to-r text-2xl from-[#FF6347] to-[#Ed2939] text-transparent bg-clip-text">
-            &reg;Uniting Cutting-Edge Robotics with Human Excellence <br></br>
+            &reg;Futuristic housekeeping with Human Excellence <br></br>
             </span>
           </h1>
 
