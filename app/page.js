@@ -28,7 +28,7 @@ export default function Home() {
             priority
           />
           <h3 className='text-3xl text-center sm:text-4xl lg:text-5xl ui-sans-serif mt-4 sm:mt-6 lg:mt-0'>
-            The Future of Residential Housekeeping, Born in SF
+            Premium Residential Housekeeping in one monthly subscription
           </h3>
         </div>
         <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-10">
