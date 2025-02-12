@@ -14,7 +14,7 @@ export default function Reviews() {
         <div className="mt-6 flex items-center justify-center space-x-6">
           {/* User Image */}
           <Image
-            src="/nat.png"
+            src="/Nat.png"
             alt="User"
             width={85}
             height={79}
