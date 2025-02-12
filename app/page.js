@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import Subscribe from '../components/Subscribe'
 import WaitlistCta from '../components/WaitlistCTA'
-import InfoSection from '../components/InfoSection'
+import InformationSection from '../components/Info'
 import ButlerCard from '../components/ButlerCard'
 import Reviews from '../components/Reviews'
 import Image from 'next/image'
@@ -17,7 +17,7 @@ export default function Home() {
       <NavBar />
       <HeroSection />
       <WaitlistCta />
-      <InfoSection />
+      <InformationSection />
       <ButlerCard />
       <Reviews />
       <Subscribe/>
