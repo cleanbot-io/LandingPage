@@ -3,7 +3,9 @@ import NavBar from '../components/NavBar'
 import HeroSection from '../components/HeroSection'
 import Subscribe from '../components/Subscribe'
 import WaitlistCta from '../components/WaitlistCTA'
-import InfoSection from '../components/infoSection'
+import InfoSection from '../components/InfoSection'
+import ButlerCard from '../components/ButlerCard'
+import Reviews from '../components/Reviews'
 import Image from 'next/image'
 import {Shiba} from './3drobot'
 import { Suspense } from 'react'
@@ -16,6 +18,8 @@ export default function Home() {
       <HeroSection />
       <WaitlistCta />
       <InfoSection />
+      <ButlerCard />
+      <Reviews />
       <Subscribe/>
       <Footer />
     </Suspense>

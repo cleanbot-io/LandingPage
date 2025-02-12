@@ -3,12 +3,9 @@ export default function HeroSection() {
       <div className="relative w-full h-screen bg-cover bg-center flex flex-col justify-between" style={{ backgroundImage: "url('/cb-LR1.png')" }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-6">
-          <h1 className="text-white text-4xl md:text-6xl font-bold">
-            Welcome to Cleanbot
+          <h1 className="text-white text-5xl md:text-6xl font-sans font-bold">
+            Premium Housekeeping In One Monthy Subscription
           </h1>
-          <p className="text-white text-lg md:text-xl mt-4">
-            The future of home cleaning, powered by innovation.
-          </p>
         </div>
   
         {/* Call to Action Button - Always Anchored at Bottom */}
