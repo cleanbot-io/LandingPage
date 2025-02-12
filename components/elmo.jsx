@@ -1,4 +1,4 @@
-export default function InfoSection() {
+export default function Elmo() {
     return (
         <section className="flex flex-col items-center text-center px-4">
         <p className="text-lg font-medium leading-relaxed max-w-md mt-6 text-black dark:text-sky-400">
