@@ -39,32 +39,31 @@ function Subscribe() {
   };
 
   return (
-    <div className="relative bg-custom-blue flex flex-col items-baseline justify-center p-40 gap-4 rounded-md">
-      <h2 className="text-2xl text-white font-bold">Subscribe for Updates</h2>
-      <div className="relative">
-        <div className="relative flex">
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Enter your email"
-            className="p-3 pl-4 pr-32 border border-white rounded-full"
-            disabled={loading}
-          />
-          <button
-            className="absolute right-1 top-1 bg-black text-white text-custom-blue p-2 pl-6 pr-6 rounded-full"
-            onClick={handleSubscribe}
-            disabled={loading}
-          >
-            {loading ? "Subscribing..." : "Subscribe"}
-          </button>
-        </div>
+    <div className="relative bg-custom-blue flex flex-col items-center justify-center p-8 gap-4 rounded-md w-full max-w-lg mx-auto">
+      <h2 className="text-2xl text-white font-bold text-center">Subscribe for Updates</h2>
+      <div className="w-full relative flex">
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your email"
+          className="p-3 pl-4 w-full border border-white rounded-full"
+          disabled={loading}
+        />
+        <button
+          className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black text-white px-4 py-2 rounded-full"
+          onClick={handleSubscribe}
+          disabled={loading}
+        >
+          {loading ? "Subscribing..." : "Subscribe"}
+        </button>
       </div>
-      <p className="text-white">
+      <p className="text-white text-center">
         Be the first to hear about our newest product updates!
       </p>
     </div>
   );
+  
 }
 
 export default Subscribe;
