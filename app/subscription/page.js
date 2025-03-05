@@ -99,7 +99,7 @@ function Subscription() {
 
     <p className="px-4">
       We're excited to welcome our early adopters in San Francisco! There are only{" "}
-      <span className="italic">(60 spots available)</span>. This isn’t about artificial scarcity—our availability is limited because we have a dedicated team of full-time housekeepers.
+      <span className="italic">(60 spots available)</span>. This isn`t about artificial scarcity—our availability is limited because we have a dedicated team of full-time housekeepers.
     </p>
 
     <br />
