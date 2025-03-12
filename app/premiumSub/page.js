@@ -6,6 +6,7 @@ import Feature from "../../components/sections/premium/Feature";
 import Service from "../../components/sections/premium/Services";
 import Care from "../../components/sections/premium/Care";
 
+
 import { features, services, cares, subscriptionPlans } from "./data";
 import SubscriptionCard from "./SubCard";
 
@@ -25,6 +26,9 @@ function PremiumSubscription() {
           Top Features Highlights.
         </p>
       </div>
+      <a href="./butler">
+        <h2>click for butler</h2>
+      </a>
 
       {/* Section: Features */}
       <div className="flex flex-col gap-16 sm:gap-28 mt-16 px-4 sm:px-10 lg:px-28">
