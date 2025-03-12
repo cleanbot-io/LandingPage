@@ -14,7 +14,7 @@ function NavBar() {
             {/* LOGO & NAME */}
             <Link href="/" className="flex items-center space-x-2">
               <Image src="/dalle.png" width={40} height={40} alt="logo" />
-              <span className="text-2xl font-semibold text-black">Cleanbot</span>
+              
             </Link>
             {/* HAMBURGER BUTTON */}
             <div className="md:hidden">

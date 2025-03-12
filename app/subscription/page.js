@@ -98,8 +98,8 @@ function Subscription() {
     <h1 className="py-5 text-6xl font-serif">WAITLIST</h1>
 
     <p className="px-4">
-      We&apos;re excited to welcome our early adopters in San Francisco! There are only{" "}
-      <span className="italic">(60 spots available)</span>. This isn&apos;t about artificial scarcity—our availability is limited because we have a dedicated team of full-time housekeepers.
+      We &apos;re excited to welcome our early adopters in San Francisco! There are only
+      <span className="italic">(60 spots available)</span>. This isn &apos; t about artificial-scarcity our availability is limited because we have a dedicated team of full-time housekeepers.
     </p>
 
     <br />
@@ -247,7 +247,7 @@ function Subscription() {
                 {/* Frosted Glass Effect */}
                 <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-20 backdrop-blur-md rounded-3xl px-6 py-4 whitespace-nowrap">
                   <p className="text-white text-base text-center font-semibold">
-                    Experience Cleanbot in it&apos;s simplest form
+                    Experience Cleanbot in it &apos; s simplest form
                   </p>
                 </div>
               </div>
