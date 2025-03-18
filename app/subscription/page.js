@@ -98,19 +98,32 @@ function Subscription() {
     <h1 className="py-5 text-6xl font-serif">WAITLIST</h1>
 
     <p className="px-4">
-      We &apos;re excited to welcome our early adopters in San Francisco! There are only
-      <span className="italic">(60 spots available)</span>. This isn &apos; t about artificial-scarcity our availability is limited because we have a dedicated team of full-time housekeepers.
-    </p>
+  <strong>Join Cleanbot&apos;s Founding Circle</strong>
+  <br />
+  <span className="italic">(Exclusive Pilot Program for San Francisco&apos;s Most Discerning Homes)</span>
+  <br /><br />
+  At Cleanbot, we&apos;re creating more than a cleaning service—we&apos;re setting a new standard for premium residential housekeeping. 
+  This is for the few who understand that true luxury comes with attention to detail and a level of personalization that others can&apos;t match.
+  <br /><br />
+  We&apos;re selecting just <strong>60 households</strong> in the San Francisco Metro area to be part of this journey. Why so few? Because we believe 
+  excellence deserves focused attention. Our small team of full-time housekeepers, not contractors, is dedicated to crafting an unmatched 
+  cleaning experience in your home.
+  <br /><br />
+  <strong>As a founding member, you&apos;ll:</strong>
+  <br />
+  ✔ Help define Cleanbot&apos;s future through your feedback on our technology and service.<br />
+  ✔ Enjoy priority access to future member-exclusive benefits and special rates.<br />
+  ✔ Experience unparalleled care backed by a team that treats your home with the utmost respect.
+  <br /><br />
+  This is more than a service—it&apos;s an ongoing partnership, where together, we will shape the future of what&apos;s possible in housekeeping.
+  <br /><br />
+  <strong>Only 60 spots are available.</strong><br />
+  Be part of an exclusive legacy of excellence.
+  <br /><br />
+  <strong>How to get started:</strong><br />
+  Simply choose the subscription you&apos;re interested in, complete your payment via Stripe, and your spot is secured.
+</p>
 
-    <br />
-
-    <p className="px-4">
-      To secure your spot, a reservation fee of <span className="italic">1/3 of your chosen subscription</span> is required. Enjoy effortless housekeeping with a plan that suits you. Join our exclusive waitlist today and be among the first in San Francisco to experience seamless, subscription-based home cleaning.
-    </p>
-
-    <br />
-
-    <p className="px-4 font-semibold">Reserve your spot now!</p>
 
     <Button className="bg-blue-600 text-xl text-white px-5 mt-5 rounded-3xl">
       Join the waitlist
@@ -142,7 +155,9 @@ function Subscription() {
 
 
           {/* Responsive Subscription card Grid Section */}
-          <section className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 auto-rows-fr">
+          {/* Responsive Subscription card Grid Section */}
+<section className="mt-8 grid gap-8 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 auto-rows-fr">
+
 
 
             {/* Responsive VIP Subscription Card */}
