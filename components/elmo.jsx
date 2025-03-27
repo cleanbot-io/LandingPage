@@ -6,7 +6,7 @@ export default function Elmo() {
         </p>
         
         <p className="text-lg font-medium leading-relaxed max-w-md mt-4 text-black dark:text-sky-400">
-          Apply now to secure your spot with a fully refundable <span className="font-semibold text-yellow-400">$200 reservation fee</span>.
+          Apply now to secure your spot
         </p>
         
         <p className="text-sm font-light tracking-wide mt-6 text-black dark:text-sky-400">

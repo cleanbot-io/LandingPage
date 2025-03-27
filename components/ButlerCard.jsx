@@ -4,7 +4,7 @@ export default function ButlerCard() {
     return (
         <section className="flex flex-col items-center text-center mt-10">
         
-        <Image src="/Arton.png" alt="navigation" width={1000} height={1000} className="mt-10" />
+        <Image src="/Arton.png" alt="navigation" width={500} height={100} className="mt-10" />
 
         <div className="flex flex-col items-center justify-center p-8">
   {/* Image Section */}
@@ -17,7 +17,7 @@ export default function ButlerCard() {
       From dog walks and grocery shopping to dry cleaning pick-up, we handle the details so that you don&apos;t have to.
     </p>
     <a href='/butler' className="bg-blue-500 px-2 py-2 rounded-full">
-      <button className="mt-4 text-white">View details</button>
+      <button className="mt-4 px-2 text-white">View details</button>
     </a>
   </div>
 </div>
