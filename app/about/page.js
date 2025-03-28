@@ -59,8 +59,8 @@ function AboutPage() {
 
           <Image src="/enroute.png" alt="navigation" width={300} height={100} className="mt-10" />
           
-          <h2 className="text-3xl sm:text-8x1 font-bold text-white  tracking-tight mb-8 pb-20 pt-20">
-            Luxury cleaning, everyday prices
+          <h2 className="text-3xl sm:text-8x1 font-sans text-white  tracking-tight mb-8 pb-20 pt-20">
+            Luxury cleaning: Powered by Tech, Perfected by People
           </h2>
         </div>
 
