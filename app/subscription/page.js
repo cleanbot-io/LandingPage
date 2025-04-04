@@ -72,7 +72,7 @@ function Subscription() {
   return (
     <>
       <NavBar />
-      <main className="min-h-screen bg-gray-100 text-gray-900">
+      <main className="min-h-screen bg-gray-100 text-gray-900 dark:bg-gray-900 dark-text-white">
         {/* Page Container */}
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           
@@ -83,10 +83,10 @@ function Subscription() {
               height={100}
               width={1000}
               alt="mobile VIP"
-              className="z-1 block rounded-3xl md:hidden mt-20"
+              className="z-1 block rounded-3xl md:hidden mt-20 mb-10"
             />
             <div className="flex justify-left">
-              <h2 className="bg-yellow-200 rounded-2xl px-4 py-1 max-w-md">
+              <h2 className="bg-yellow-200 dark:text-white dark:bg-yellow-500 rounded-2xl px-4 py-1 max-w-md">
                 Now accepting applications
               </h2>
             </div>
@@ -95,48 +95,44 @@ function Subscription() {
           {/* Waitlist Section */}
 <section>
   <div>
-    <h1 className="py-5 text-6xl font-serif">WAITLIST</h1>
+    <h1 className="py-5 text-6xl dark:text-white font-serif">WAITLIST</h1>
+    
 
-    <p className="px-4">
-  <strong>Join Cleanbot&apos;s Founding Circle</strong>
+    <p className="px-4 bg-white dark:bg-gray-800 dark:text-white rounded-xl py-10 px-8">
+    <div className="flex justify-left my-4">
+              <h2 className="bg-slate-100 text-black rounded-2xl px-4 py-1 max-w-md">
+                Founder&apos;s note
+              </h2>
+            </div>
+  <strong>Exclusive Invitation: Join the CleanBot Revolution</strong>
   <br />
-  <span className="italic">(Exclusive Pilot Program for San Francisco&apos;s Most Discerning Homes)</span>
+  <span className="italic">I joyfully extend this invitation to a select group of individuals who understand that true luxury is not defined by possessions-but by the freedom to reclaim life&apos;s most precious asset: time.</span>
   <br /><br />
-  At Cleanbot, we&apos;re creating more than a cleaning service—we&apos;re setting a new standard for premium residential housekeeping. 
-  This is for the few who understand that true luxury comes with attention to detail and a level of personalization that others can&apos;t match.
+
+  <strong>Cleanbot is not just another housekeeping service. </strong>
+  We are ushering in a new era of residential care-rooted in precision, discretion, and deep respect for the sanctity of your home. Our journey begins not with automation, but with a handpicked team of professional housekeepers-career artisans of cleaniness-who embody the highest standards of excellence.
   <br /><br />
-  We&apos;re selecting just <strong>60 households</strong> in the San Francisco Metro area to be part of this journey. Why so few? Because we believe 
-  excellence deserves focused attention. Our small team of full-time housekeepers, not contractors, is dedicated to crafting an unmatched 
-  cleaning experience in your home.
+
+  <strong>Why Cleanbot is different: </strong>
+  Our housekeepers are not gig workers. They are full-time professionals, compensated fairly, with benifits, stability, and pride in their craft. Each one has been personally selected for their meticulous attention to detail and commitment to service. We are limiting our launch to just <i className="text-red-800">60 homes across San Francisco Metro area</i>. This intentional exclusivity ensures each household receives focused, personalized care, while allowing us to evolve in direct partnership with our founding members. Even beyond this MVP phase, Cleanbot will never be publicly available-we will continue to release memberships in carefully curated rounds. 
   <br /><br />
-  <strong>As a founding member, you&apos;ll:</strong>
-  <br />
-  ✔ Help define Cleanbot&apos;s future through your feedback on our technology and service.<br />
-  ✔ Enjoy priority access to future member-exclusive benefits and special rates.<br />
-  ✔ Experience unparalleled care backed by a team that treats your home with the utmost respect.
-  <br /><br />
-  This is more than a service—it&apos;s an ongoing partnership, where together, we will shape the future of what&apos;s possible in housekeeping.
-  <br /><br />
-  <strong>Only 60 spots are available.</strong><br />
-  Be part of an exclusive legacy of excellence.
-  <br /><br />
-  <strong>How to get started:</strong><br />
-  Simply choose the subscription you&apos;re interested in, complete your payment via Stripe, and your spot is secured.
+
+  <strong>As a founding member, you&apos;ll receive more than exceptional housekeeping </strong>
+  You&apos;ll play a vital role in shaping the Cleanbot experience. Your early subscription helps fund the development of our proprietary mobile platform, and you&apos;ll receive regular progress updates. Should you change your mind at any time, refunds are welcome.  To secure your place, simply submit your application today. Upon approval, you&apos;ll choose your preferred subscription and finalize your payment thorough our secure Stripe integration. The finest homes deserve nothing less than the finest care. Will yours be among them? <i className="text-red-800">For those who choose to embark on this journey with us-you have my heart, and a place near my hearth.</i><br /><br />
+<strong>Kelvin Knighton </strong><br />
+
+<i>Founder & CEO of CleanBot</i><br />
 </p>
 
-
-    <Button className="bg-blue-600 text-xl text-white px-5 mt-5 rounded-3xl">
-      Join the waitlist
-    </Button>
   </div>
 </section>
 
 <section className="my-20">
   <div className="flex items-center justify-between px-4">
     {/* Left side text */}
-    <p className="text-left text-4xl font-semibold leading-tight">
+    <p className="text-left text-4xl dark:text-white font-semibold leading-tight">
       Explore our <br />
-      <span className="text-blue-600">monthly</span> <br />
+      <span className="text-blue-600 dark:text-blue-400">monthly</span> <br />
       housekeeping <br />
       subscriptions
     </p>
