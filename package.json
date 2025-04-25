@@ -14,7 +14,7 @@
     "@react-three/fiber": "^8.14.5",
     "@stripe/stripe-js": "^5.5.0",
     "autoprefixer": "10.4.16",
-    "eslint": "8.49.0",
+    "eslint": "8.57.1",
     "eslint-config-next": "13.5.2",
     "firebase": "^10.14.0",
     "next": "^14.0.1",
