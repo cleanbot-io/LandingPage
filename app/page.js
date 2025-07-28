@@ -5,6 +5,7 @@ import Subscribe from '../components/Subscribe'
 import WaitlistCta from '../components/WaitlistCTA'
 import Elmo from '../components/elmo'
 import ButlerCard from '../components/ButlerCard'
+import MobileInterfaces from '../components/MobileInterfaces'
 import Reviews from '../components/Reviews'
 import Image from 'next/image'
 import {Shiba} from './3drobot'
@@ -20,6 +21,7 @@ export default function Home() {
       <Elmo />
       <ButlerCard />
       <Reviews />
+      <MobileInterfaces />
       <Subscribe/>
       <Footer />
     </Suspense>
