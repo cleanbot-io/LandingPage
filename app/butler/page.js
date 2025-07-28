@@ -50,7 +50,7 @@ function Butler() {
             </h3>
         
 
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-white">
   Your butler will walk your dog and handle feeding, even when you&apos;re away. 
   Check in on your dog&apos;s walk anytime within the app.
 </p>
@@ -62,7 +62,7 @@ function Butler() {
             <h3 className="text-2xl font-[Playfair_Display] font-semibold mb-2">
               Planning & Coordination
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-white">
               From personal appointments to travel arrangements, your butler
               manages your schedule, emails, and correspondence efficiently.
             </p>
@@ -73,7 +73,7 @@ function Butler() {
             <h3 className="text-2xl font-[Playfair_Display] font-semibold mb-2">
               Errands & Essentials
             </h3>
-            <p className="text-gray-600">
+            <p className="text-gray-600 dark:text-white">
               Let your butler handle personal shopping, dry cleaning pickup/delivery, grocery shopping, and keeping your fridge stocked.
             </p>
           </div>
@@ -85,7 +85,7 @@ function Butler() {
   The Rest? Just Queue it up.
 </h1>
 
-          <p className="text-lg text-gray-700 max-w-3xl mx-auto mt-3">
+          <p className="text-lg text-gray-700 dark:text-white max-w-3xl mx-auto mt-3">
             Your <i>Fractional Butler</i> is designed to handle the details of
             your day-to-day life. Need something else done? Simply request it
             through the Cleanbot app, and consider it handled.
@@ -103,7 +103,7 @@ function Butler() {
 
       {/* Call to Action */}
       <div className="bg-gray-100 py-16 text-center">
-        <h2 className="text-3xl font-semibold mb-4">
+        <h2 className="text-3xl dark:text-black font-semibold mb-4">
           Ready to Elevate Your Lifestyle?
         </h2>
         <p className="text-lg text-gray-600 mb-6">
