@@ -8,6 +8,7 @@ import Footer from "../../components/Footer";
 // import CarouselCard from "../../components/Carousel";
 import FrequentQuestions from "../../components/FrequentQuestions";
 import HiringForm from "../../components/HiringForm";
+import CustomerForm from "../../components/customer/CustomerForm";
 // function Cleaners() {
 //   let videoSrc = "/Grandopen.mp4";
 //   return (
@@ -192,6 +193,9 @@ export default function EmployeesPage() {
       <FrequentQuestions />
       
       <HiringForm />
+      <div className="mt-10">
+        <CustomerForm />
+      </div>
       </div>
        
     </div>
