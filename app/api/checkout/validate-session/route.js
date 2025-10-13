@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import stripe from "../../../../lib/stripe";
+import stripe from "../../../../lib/stripeInstance";
 
 export async function GET(req) {
   const { searchParams } = new URL(req.url);
