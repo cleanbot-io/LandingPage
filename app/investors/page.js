@@ -64,7 +64,7 @@ function Investors () {
                 <h1 className='font-serif text-4xl text-black pt-8'>investor@getcleanbot.com</h1>
                 
                 <button class="mt-10 bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
-                <a className='bg-re' href='cleanbot-pre-seed.pdf' download>Download our pitch deck</a>
+                <a className='bg-re' href='newnew-pitch.pdf' download>Download our pitch deck</a>
                     </button>
             </div>
 
