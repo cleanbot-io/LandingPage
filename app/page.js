@@ -15,7 +15,8 @@ import Loading from '../components/Loading'
 export default function Home() {
   return (
     <Suspense fallback={<Loading />}>
-      <NavBar />
+<h1> This website is shutting down </h1>
+{/.. <NavBar />
       <HeroSection />
       <WaitlistCta />
       <Elmo />
@@ -23,7 +24,7 @@ export default function Home() {
       <Reviews />
       <MobileInterfaces />
       <Subscribe/>
-      <Footer />
+      <Footer />..}
     </Suspense>
   )
 }
